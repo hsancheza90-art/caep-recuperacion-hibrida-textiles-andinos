@@ -222,3 +222,106 @@ def test_build_multimodal_corpus_rejects_nonportable_paths(
             make_cultural_corpus(),
             manifest,
         )
+
+def test_build_multimodal_corpus_fills_existing_empty_columns() -> None:
+    cultural = make_cultural_corpus()
+
+    cultural["image_local_path"] = ""
+    cultural["image_sha256"] = ""
+
+    result = build_multimodal_corpus(
+        cultural,
+        make_image_manifest(),
+    )
+
+    assert result.columns.tolist().count(
+        "image_local_path"
+    ) == 1
+
+    assert result.columns.tolist().count(
+        "image_sha256"
+    ) == 1
+
+    assert result["image_local_path"].tolist() == [
+        "data/images/met/MET_2.jpg",
+        "data/images/cma/CMA_1.jpg",
+    ]
+
+    assert result["image_sha256"].tolist() == [
+        "a" * 64,
+        "b" * 64,
+    ]
+
+
+def test_build_multimodal_corpus_accepts_compatible_existing_values(
+) -> None:
+    cultural = make_cultural_corpus()
+
+    cultural["image_local_path"] = [
+        "data/images/met/MET_2.jpg",
+        "data/images/cma/CMA_1.jpg",
+    ]
+
+    cultural["image_sha256"] = [
+        "A" * 64,
+        "B" * 64,
+    ]
+
+    result = build_multimodal_corpus(
+        cultural,
+        make_image_manifest(),
+    )
+
+    assert result["image_local_path"].tolist() == [
+        "data/images/met/MET_2.jpg",
+        "data/images/cma/CMA_1.jpg",
+    ]
+
+    # El manifiesto se utiliza como representación canónica.
+    assert result["image_sha256"].tolist() == [
+        "a" * 64,
+        "b" * 64,
+    ]
+
+
+@pytest.mark.parametrize(
+    (
+        "column",
+        "conflicting_value",
+    ),
+    [
+        (
+            "image_local_path",
+            "data/images/met/OTHER_IMAGE.jpg",
+        ),
+        (
+            "image_sha256",
+            "c" * 64,
+        ),
+    ],
+)
+def test_build_multimodal_corpus_rejects_existing_conflicts(
+    column: str,
+    conflicting_value: str,
+) -> None:
+    cultural = make_cultural_corpus()
+
+    cultural["image_local_path"] = ""
+    cultural["image_sha256"] = ""
+
+    cultural.loc[
+        cultural["item_id"].eq("MET:2"),
+        column,
+    ] = conflicting_value
+
+    with pytest.raises(
+        ValueError,
+        match=(
+            "conflicto.*"
+            f"{column}"
+        ),
+    ):
+        build_multimodal_corpus(
+            cultural,
+            make_image_manifest(),
+        )

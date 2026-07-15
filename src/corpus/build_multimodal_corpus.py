@@ -245,30 +245,119 @@ def _validate_museum_consistency(
             f"y el manifiesto. Ejemplos: {examples}"
         )
 
+def _normalize_technical_values(
+    values: pd.Series,
+    column: str,
+) -> pd.Series:
+    """Normaliza valores técnicos solo para compararlos."""
 
-def _validate_output_column_collisions(
+    normalized = (
+        values
+        .astype("string")
+        .fillna("")
+        .str.strip()
+    )
+
+    if column == "image_local_path":
+        normalized = normalized.str.replace(
+            "\\",
+            "/",
+            regex=False,
+        )
+
+    if column == "image_sha256":
+        normalized = normalized.str.lower()
+
+    return normalized
+
+
+def _merge_technical_columns(
     cultural_corpus: pd.DataFrame,
-) -> None:
-    """Evita sobrescribir columnas del corpus cultural."""
+    technical_manifest: pd.DataFrame,
+) -> pd.DataFrame:
+    """Integra columnas técnicas sin duplicarlas.
 
-    output_columns = set(
-        IMAGE_COLUMN_MAP.values()
-    )
+    Las columnas ausentes se agregan. Las columnas existentes y
+    vacías se completan. Si existen valores no vacíos incompatibles,
+    la construcción se rechaza.
+    """
 
-    collisions = sorted(
-        output_columns.intersection(
-            cultural_corpus.columns
-        )
-    )
+    derived = cultural_corpus.copy(deep=True)
 
-    if collisions:
-        columns = ", ".join(collisions)
-
-        raise ValueError(
-            "El corpus cultural ya contiene columnas reservadas "
-            f"para el corpus multimodal: {columns}"
+    for column in IMAGE_COLUMN_MAP.values():
+        incoming = derived[KEY_COLUMN].map(
+            technical_manifest[column]
         )
 
+        incoming = (
+            incoming
+            .astype("string")
+            .fillna("")
+        )
+
+        if column not in derived.columns:
+            derived[column] = incoming
+            continue
+
+        existing = (
+            derived[column]
+            .astype("string")
+            .fillna("")
+        )
+
+        existing_normalized = _normalize_technical_values(
+            existing,
+            column,
+        )
+
+        incoming_normalized = _normalize_technical_values(
+            incoming,
+            column,
+        )
+
+        conflicts = (
+            existing_normalized.ne("")
+            & incoming_normalized.ne("")
+            & existing_normalized.ne(
+                incoming_normalized
+            )
+        )
+
+        if conflicts.any():
+            examples = pd.DataFrame(
+                {
+                    KEY_COLUMN: derived.loc[
+                        conflicts,
+                        KEY_COLUMN,
+                    ],
+                    "cultural_value": existing.loc[
+                        conflicts
+                    ],
+                    "manifest_value": incoming.loc[
+                        conflicts
+                    ],
+                }
+            ).head(5)
+
+            raise ValueError(
+                "Se detectó un conflicto en la columna técnica "
+                f"{column}. Ejemplos: "
+                f"{examples.to_dict(orient='records')}"
+            )
+
+        merged = existing.copy()
+
+        # Cuando el manifiesto contiene un valor, se utiliza como
+        # representación técnica canónica.
+        use_manifest = incoming_normalized.ne("")
+
+        merged.loc[use_manifest] = incoming.loc[
+            use_manifest
+        ]
+
+        derived[column] = merged
+
+    return derived
 
 def build_multimodal_corpus(
     cultural_corpus: pd.DataFrame,
@@ -318,9 +407,6 @@ def build_multimodal_corpus(
         manifest=manifest,
     )
 
-    _validate_output_column_collisions(
-        cultural_corpus=cultural,
-    )
 
     technical = (
         manifest.loc[
@@ -334,12 +420,10 @@ def build_multimodal_corpus(
         .set_index(KEY_COLUMN)
     )
 
-    derived = cultural.copy(deep=True)
-
-    for column in IMAGE_COLUMN_MAP.values():
-        derived[column] = derived[
-            KEY_COLUMN
-        ].map(technical[column])
+    derived = _merge_technical_columns(
+        cultural_corpus=cultural,
+        technical_manifest=technical,
+    )
 
     if len(derived) != len(cultural):
         raise RuntimeError(
