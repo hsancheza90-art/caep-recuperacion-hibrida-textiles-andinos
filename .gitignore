@@ -52,3 +52,5 @@ paper/*.toc
 
 # Repositorios fuente temporales
 .cache/
+# Python packaging metadata
+*.egg-info/

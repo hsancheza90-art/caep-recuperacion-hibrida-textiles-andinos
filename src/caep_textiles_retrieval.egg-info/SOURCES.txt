@@ -1,7 +1,0 @@
-pyproject.toml
-src/caep/__init__.py
-src/caep_textiles_retrieval.egg-info/PKG-INFO
-src/caep_textiles_retrieval.egg-info/SOURCES.txt
-src/caep_textiles_retrieval.egg-info/dependency_links.txt
-src/caep_textiles_retrieval.egg-info/requires.txt
-src/caep_textiles_retrieval.egg-info/top_level.txt
