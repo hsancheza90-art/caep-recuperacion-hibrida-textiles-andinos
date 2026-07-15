@@ -1,0 +1,26 @@
+project:
+  name: caep-textiles-retrieval
+  dataset_version: "paper-corpus-v1"
+
+upstream_repository:
+  url: "https://github.com/hsancheza90-art/uni-cc-base-multimodal-textiles-andinos.git"
+
+sources:
+  met:
+    museum: "The Metropolitan Museum of Art"
+    branch: "curacion/corpus-met-textiles-andinos-v1"
+    expected_reviewed_primary_count: 127
+    local_directory: "data/source/met"
+
+  cma:
+    museum: "Cleveland Museum of Art"
+    branch: "curacion/corpus-cma-textiles-andinos-v1"
+    expected_reviewed_primary_count: 88
+    local_directory: "data/source/cma"
+
+policies:
+  preserve_original_files: true
+  pin_source_commits: true
+  download_images_reproducibly: true
+  exclude_images_from_git: true
+  never_overwrite_source_files: true

@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: caep-textiles-retrieval
+Version: 0.1.0
+Summary: Recuperación híbrida e interpretable de textiles andinos para el Concurso de Artículos de IA de la EPG-UNI.
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: pandas<3.0,>=2.2
+Requires-Dist: pyarrow<22,>=17
+Requires-Dist: pillow<13,>=10.4
+Requires-Dist: imagehash<5,>=4.3
+Requires-Dist: requests<3,>=2.32
+Requires-Dist: pyyaml<7,>=6
+Provides-Extra: dev
+Requires-Dist: pytest<10,>=8; extra == "dev"
+Requires-Dist: pytest-cov<8,>=5; extra == "dev"
+Requires-Dist: ruff<1,>=0.8; extra == "dev"

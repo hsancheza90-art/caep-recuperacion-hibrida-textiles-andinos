@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caep-textiles-retrieval"
+version = "0.1.0"
+description = "Recuperación híbrida e interpretable de textiles andinos para el Concurso de Artículos de IA de la EPG-UNI."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2,<3.0",
+    "pyarrow>=17,<22",
+    "pillow>=10.4,<13",
+    "imagehash>=4.3,<5",
+    "requests>=2.32,<3",
+    "pyyaml>=6,<7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<10",
+    "pytest-cov>=5,<8",
+    "ruff>=0.8,<1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

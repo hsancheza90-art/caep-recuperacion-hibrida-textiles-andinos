@@ -1,0 +1,52 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Datos descargados y derivados
+data/images/*
+!data/images/met/
+!data/images/cma/
+!data/images/met/.gitkeep
+!data/images/cma/.gitkeep
+
+data/interim/*
+!data/interim/.gitkeep
+
+# Embeddings y matrices
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+
+# Resultados temporales
+outputs/tmp/
+logs/
+
+# LaTeX
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc
