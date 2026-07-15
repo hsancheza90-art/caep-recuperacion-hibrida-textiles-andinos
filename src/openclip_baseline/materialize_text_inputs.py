@@ -18,6 +18,42 @@ from src.openclip_baseline.text_inputs import (
 DATASET_NAME = "openclip_text_inputs_v1"
 PIPELINE_VERSION = "openclip_text_materialization_v1"
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+DEFAULT_CORPUS_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "derived"
+    / "paper_corpus_multimodal_v1.csv"
+)
+
+DEFAULT_OUTPUT_CSV_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "derived"
+    / "openclip_text_inputs_v1.csv"
+)
+
+DEFAULT_OUTPUT_PARQUET_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "derived"
+    / "openclip_text_inputs_v1.parquet"
+)
+
+DEFAULT_SUMMARY_PATH = (
+    PROJECT_ROOT
+    / "outputs"
+    / "reports"
+    / "openclip_text_inputs_summary_v1.csv"
+)
+
+DEFAULT_PROVENANCE_PATH = (
+    PROJECT_ROOT
+    / "outputs"
+    / "reports"
+    / "openclip_text_inputs_provenance_v1.json"
+)
 
 def _resolve_path(
     path: Path,
@@ -502,3 +538,69 @@ def materialize_openclip_text_inputs(
         provenance,
         provenance_path,
     )
+
+def _print_materialization_summary(
+    *,
+    output_csv_path: Path,
+    summary_path: Path,
+    output_parquet_path: Path,
+    provenance_path: Path,
+) -> None:
+    """Muestra un resumen de los artefactos textuales generados."""
+
+    text_inputs = pd.read_csv(
+        output_csv_path,
+        dtype=str,
+        keep_default_na=False,
+    )
+
+    summary = pd.read_csv(
+        summary_path,
+        keep_default_na=False,
+    )
+
+    print("\nENTRADAS TEXTUALES OPENCLIP")
+    print("=" * 100)
+    print(f"Registros: {len(text_inputs)}")
+    print(f"Columnas: {len(text_inputs.columns)}")
+
+    print("\nCOBERTURA")
+    print("=" * 100)
+    print(summary.to_string(index=False))
+
+    print("\nARTEFACTOS")
+    print("=" * 100)
+
+    for path in (
+        output_csv_path,
+        output_parquet_path,
+        summary_path,
+        provenance_path,
+    ):
+        print(
+            path.resolve()
+            .relative_to(PROJECT_ROOT.resolve())
+        )
+
+def main() -> None:
+    """Materializa las entradas textuales OpenCLIP v1."""
+
+    materialize_openclip_text_inputs(
+        corpus_path=DEFAULT_CORPUS_PATH,
+        output_csv_path=DEFAULT_OUTPUT_CSV_PATH,
+        output_parquet_path=DEFAULT_OUTPUT_PARQUET_PATH,
+        summary_path=DEFAULT_SUMMARY_PATH,
+        provenance_path=DEFAULT_PROVENANCE_PATH,
+        repository_root=PROJECT_ROOT,
+    )
+
+    _print_materialization_summary(
+        output_csv_path=DEFAULT_OUTPUT_CSV_PATH,
+        output_parquet_path=DEFAULT_OUTPUT_PARQUET_PATH,
+        summary_path=DEFAULT_SUMMARY_PATH,
+        provenance_path=DEFAULT_PROVENANCE_PATH,
+    )
+
+
+if __name__ == "__main__":
+    main()
