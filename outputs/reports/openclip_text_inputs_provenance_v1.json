@@ -1,0 +1,32 @@
+{
+  "coverage": {
+    "metadata_text_nonempty": 215,
+    "output_records": 215,
+    "source_records": 215,
+    "visual_text_nonempty": 215
+  },
+  "dataset_name": "openclip_text_inputs_v1",
+  "input": {
+    "path": "data/derived/paper_corpus_multimodal_v1.csv",
+    "sha256": "874b6571f365fc5f23b5a2e5ab676e4e6b40f18658a8531c2d638dd64f9b5501",
+    "size_bytes": 283434
+  },
+  "outputs": {
+    "csv": {
+      "path": "data/derived/openclip_text_inputs_v1.csv",
+      "sha256": "9e74446194e3d1b08c327b487ff5cdf50c3196486a211f70b15d4a34e6c19925",
+      "size_bytes": 143739
+    },
+    "parquet": {
+      "path": "data/derived/openclip_text_inputs_v1.parquet",
+      "sha256": "f90ec7dcc50d8d079ac705f7ba54c1491fcc64192f4df53514cd14e43d9cf69b",
+      "size_bytes": 56772
+    },
+    "summary": {
+      "path": "outputs/reports/openclip_text_inputs_summary_v1.csv",
+      "sha256": "f6a8423aa1f9134228624cd69d759b5f98edac0242ef09f5641f5f936055a63a",
+      "size_bytes": 174
+    }
+  },
+  "pipeline_version": "openclip_text_materialization_v1"
+}
