@@ -24,6 +24,12 @@ dev = [
     "ruff>=0.8,<1",
 ]
 
+openclip = [
+    "torch==2.7.1",
+    "torchvision==0.22.1",
+    "open-clip-torch==3.3.0",
+]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
