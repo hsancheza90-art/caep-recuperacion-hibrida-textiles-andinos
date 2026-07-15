@@ -1,0 +1,16 @@
+﻿sources:
+  met:
+    branch: mejora/met-flujo-reproducible-es
+    commit: a5f32a929d7c895c4b151e162f734746c226abc4
+    upstream_path: data/metadata/met_corpus_principal_v2_revisado.csv
+    local_path: data/source/met/met_corpus_principal_v2_revisado.csv
+    expected_rows: 127
+    sha256: F5744D66736D74C4B22D5EB093BB22F177D885D037F18BF6DB18083D2080329C
+
+  cma:
+    branch: mejora/cma-flujo-reproducible-es
+    commit: 0659cd14769fa8e2cf1bde4b01b2cbb3f0415db6
+    upstream_path: data/metadata/cma_corpus_principal_revisado.csv
+    local_path: data/source/cma/cma_corpus_principal_revisado.csv
+    expected_rows: 88
+    sha256: 003E0C5F6637B0B6F30B09632E991012EF7D8311494D330B5A2BF7E2FB15A5CD

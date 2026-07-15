@@ -1,0 +1,10 @@
+﻿upstream_repository: https://github.com/hsancheza90-art/uni-cc-base-multimodal-textiles-andinos.git
+retrieved_at: 2026-07-15T03:27:20-05:00
+
+met:
+  branch: curacion/corpus-met-textiles-andinos-v1
+  commit: 31f0dfb95766097eb1ee50869ef56ee3c46930d5
+
+cma:
+  branch: curacion/corpus-cma-textiles-andinos-v1
+  commit: 54e0310d940a26e34bee75237cfe2a001ba826a8

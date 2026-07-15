@@ -1,0 +1,291 @@
+schema:
+  name: paper_corpus
+  version: "1.0.0"
+  description: >
+    Esquema armonizado para el corpus experimental de recuperación
+    interpretable de textiles andinos procedentes de múltiples museos.
+  primary_key:
+    - item_id
+
+fields:
+  - name: item_id
+    type: string
+    required: true
+    nullable: false
+    description: Identificador único y trazable dentro del corpus experimental.
+    example: "MET:436521"
+
+  - name: museum
+    type: string
+    required: true
+    nullable: false
+    allowed_values:
+      - MET
+      - CMA
+    description: Código normalizado del museo de procedencia.
+
+  - name: source_object_id
+    type: string
+    required: true
+    nullable: false
+    description: Identificador original del objeto en la institución fuente.
+
+  - name: source_accession_number
+    type: string
+    required: false
+    nullable: true
+    description: Número de acceso o inventario institucional, cuando esté disponible.
+
+  - name: title
+    type: string
+    required: true
+    nullable: false
+    description: Título principal normalizado del objeto.
+
+  - name: title_original
+    type: string
+    required: false
+    nullable: true
+    description: Título original recuperado de la fuente.
+
+  - name: description
+    type: string
+    required: false
+    nullable: true
+    description: Descripción curatorial principal.
+
+  - name: culture
+    type: string
+    required: false
+    nullable: true
+    description: Cultura o atribución cultural normalizada.
+
+  - name: culture_original
+    type: string
+    required: false
+    nullable: true
+    description: Cultura tal como aparece en la fuente.
+
+  - name: period
+    type: string
+    required: false
+    nullable: true
+    description: Periodo o cronología normalizada.
+
+  - name: period_original
+    type: string
+    required: false
+    nullable: true
+    description: Periodo o fecha textual original de la fuente.
+
+  - name: object_type
+    type: string
+    required: false
+    nullable: true
+    description: Tipo de objeto normalizado.
+
+  - name: object_type_original
+    type: string
+    required: false
+    nullable: true
+    description: Tipo o nombre de objeto original de la fuente.
+
+  - name: material
+    type: string
+    required: false
+    nullable: true
+    description: Material normalizado.
+
+  - name: material_original
+    type: string
+    required: false
+    nullable: true
+    description: Material o medio original.
+
+  - name: technique
+    type: string
+    required: false
+    nullable: true
+    description: Técnica normalizada.
+
+  - name: technique_original
+    type: string
+    required: false
+    nullable: true
+    description: Técnica original de la fuente.
+
+  - name: provenance
+    type: string
+    required: false
+    nullable: true
+    description: Procedencia geográfica o histórica documentada.
+
+  - name: classification
+    type: string
+    required: false
+    nullable: true
+    description: Clasificación museográfica original o normalizada.
+
+  - name: country
+    type: string
+    required: false
+    nullable: true
+    description: País documentado en la metadata institucional.
+
+  - name: region
+    type: string
+    required: false
+    nullable: true
+    description: Región documentada en la metadata institucional.
+    
+  - name: image_url
+    type: string
+    required: true
+    nullable: false
+    format: uri
+    description: URL institucional o derivada para descargar la imagen.
+
+  - name: object_url
+    type: string
+    required: true
+    nullable: false
+    format: uri
+    description: URL pública de la ficha del objeto.
+
+  - name: license
+    type: string
+    required: false
+    nullable: true
+    description: Licencia o condición de uso declarada.
+
+  - name: dataset_split
+    type: string
+    required: true
+    nullable: false
+    allowed_values:
+      - principal
+      - secundario
+      - descartado
+    description: Subconjunto curatorial asignado.
+
+  - name: review_status
+    type: string
+    required: true
+    nullable: false
+    allowed_values:
+      - aprobado
+      - secundario
+      - descartado
+    description: Estado de revisión armonizado.
+
+  - name: review_decision_original
+    type: string
+    required: false
+    nullable: true
+    description: Decisión de revisión registrada en la fuente.
+
+  - name: review_reason
+    type: string
+    required: false
+    nullable: true
+    description: Motivo o justificación curatorial.
+
+  - name: reviewer
+    type: string
+    required: false
+    nullable: true
+    description: Revisor documentado en la fuente.
+
+  - name: review_date
+    type: string
+    required: false
+    nullable: true
+    description: Fecha de revisión original.
+
+  - name: source_branch
+    type: string
+    required: true
+    nullable: false
+    description: Rama Git de procedencia.
+
+  - name: source_commit
+    type: string
+    required: true
+    nullable: false
+    pattern: "^[0-9a-f]{40}$"
+    description: Commit Git exacto de procedencia.
+
+  - name: source_file
+    type: string
+    required: true
+    nullable: false
+    description: Ruta del archivo fuente dentro del repositorio upstream.
+
+  - name: enrichment_source_file
+    type: string
+    required: true
+    nullable: false
+    description: Archivo institucional utilizado para recuperar metadata.
+
+  - name: metadata_recovery_source
+    type: string
+    required: true
+    nullable: false
+    description: Identificador del proceso o fuente de recuperación de metadata.
+
+  - name: metadata_recovery_version
+    type: string
+    required: true
+    nullable: false
+    description: Versión del procedimiento de recuperación de metadata.
+    
+  - name: adapter_name
+    type: string
+    required: true
+    nullable: false
+    description: Adaptador utilizado para armonizar el registro.
+
+  - name: adapter_version
+    type: string
+    required: true
+    nullable: false
+    description: Versión del adaptador.
+
+  - name: processing_timestamp
+    type: string
+    required: true
+    nullable: false
+    description: Fecha y hora UTC de procesamiento.
+
+  - name: image_local_path
+    type: string
+    required: false
+    nullable: true
+    description: Ruta local de la imagen descargada.
+
+  - name: image_sha256
+    type: string
+    required: false
+    nullable: true
+    pattern: "^[0-9a-f]{64}$"
+    description: Hash SHA-256 del archivo de imagen.
+
+  - name: image_phash
+    type: string
+    required: false
+    nullable: true
+    description: Hash perceptual de la imagen.
+
+constraints:
+  - name: item_id_unique
+    expression: item_id must be unique
+
+  - name: source_key_unique
+    expression: combination of museum and source_object_id must be unique
+
+  - name: required_urls
+    expression: image_url and object_url must be non-empty valid URLs
+
+  - name: principal_only_initial_release
+    expression: >
+      paper_corpus_v1 initially includes only records where dataset_split equals principal

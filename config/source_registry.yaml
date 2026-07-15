@@ -8,15 +8,19 @@ upstream_repository:
 sources:
   met:
     museum: "The Metropolitan Museum of Art"
-    branch: "curacion/corpus-met-textiles-andinos-v1"
+    branch: "mejora/met-flujo-reproducible-es"
+    commit: "a5f32a929d7c895c4b151e162f734746c226abc4"
+    upstream_file: "data/metadata/met_corpus_principal_v2_revisado.csv"
+    local_file: "data/source/met/met_corpus_principal_v2_revisado.csv"
     expected_reviewed_primary_count: 127
-    local_directory: "data/source/met"
 
   cma:
     museum: "Cleveland Museum of Art"
-    branch: "curacion/corpus-cma-textiles-andinos-v1"
+    branch: "mejora/cma-flujo-reproducible-es"
+    commit: "0659cd14769fa8e2cf1bde4b01b2cbb3f0415db6"
+    upstream_file: "data/metadata/cma_corpus_principal_revisado.csv"
+    local_file: "data/source/cma/cma_corpus_principal_revisado.csv"
     expected_reviewed_primary_count: 88
-    local_directory: "data/source/cma"
 
 policies:
   preserve_original_files: true

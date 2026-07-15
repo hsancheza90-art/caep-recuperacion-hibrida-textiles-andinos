@@ -1,0 +1,30 @@
+museum:
+  - MET
+  - CMA
+
+dataset_split:
+  - principal
+  - secundario
+  - descartado
+
+review_status:
+  - aprobado
+  - secundario
+  - descartado
+
+missing_value_policy:
+  canonical_empty_value: ""
+  unknown_label: "desconocido"
+
+normalization:
+  strip_whitespace: true
+  collapse_internal_whitespace: true
+  preserve_unicode: true
+  preserve_original_case_fields:
+    - title_original
+    - description
+    - culture_original
+    - period_original
+    - object_type_original
+    - material_original
+    - technique_original

@@ -50,3 +50,6 @@ paper/*.log
 paper/*.out
 paper/*.synctex.gz
 paper/*.toc
+
+# Repositorios fuente temporales
+.cache/

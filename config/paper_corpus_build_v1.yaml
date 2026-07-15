@@ -1,0 +1,17 @@
+﻿dataset:
+  name: paper_corpus_enriched
+  version: "1.0.0"
+
+build:
+  processing_timestamp: "2026-07-15T09:44:36Z"
+  expected_rows: 215
+  expected_columns: 42
+  expected_museum_counts:
+    MET: 127
+    CMA: 88
+  expected_sha256:
+    csv: "C19556C2DD424B51FF11E0FD0FDD9737659E013A378AB3BD54192BF48127E006"
+    parquet_environment_specific: "4BF20B745414FDE39039A6B4D5F0BD3018DD92CC84E92643AB678C4F944106A6"
+  sort_by:
+    - museum
+    - source_object_id
