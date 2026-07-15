@@ -1,0 +1,4 @@
+﻿museum,left_field,right_field,total_rows,comparable_rows,equal_rows,different_rows,equality_rate,left_unique_categories,right_unique_categories,left_is_constant,right_is_constant
+ALL,classification,object_type,215,215,88,127,0.40930232558139534,5,27,False,False
+MET,classification,object_type,127,127,0,127,0.0,1,23,True,False
+CMA,classification,object_type,88,88,88,0,1.0,4,4,False,False

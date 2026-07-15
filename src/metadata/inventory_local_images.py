@@ -134,6 +134,23 @@ PROPOSAL_COLUMNS = [
     "proposal_version",
 ]
 
+PUBLIC_INVENTORY_COLUMNS: tuple[str, ...] = (
+    "relative_image_path",
+    "filename",
+    "stem",
+    "suffix",
+    "filename_normalized",
+    "stem_normalized",
+    "size_bytes",
+    "image_width",
+    "image_height",
+    "image_format",
+    "image_readable",
+    "image_error",
+    "sha256",
+    "inventory_version",
+)
+
 
 def clean_text_value(value: object) -> str:
     """Convierte nulos en texto vacío y elimina espacios externos."""
@@ -907,6 +924,33 @@ def print_summary(
         )
     )
 
+def prepare_public_inventory(
+    inventory: pd.DataFrame,
+) -> pd.DataFrame:
+    """Prepara el inventario portable que será versionado.
+
+    La ruta absoluta puede utilizarse internamente durante la
+    ejecución, pero no debe almacenarse en los artefactos públicos,
+    porque depende del equipo y del sistema operativo.
+    """
+
+    missing_columns = [
+        column
+        for column in PUBLIC_INVENTORY_COLUMNS
+        if column not in inventory.columns
+    ]
+
+    if missing_columns:
+        missing = ", ".join(missing_columns)
+        raise ValueError(
+            "El inventario no contiene todas las columnas "
+            f"públicas requeridas: {missing}"
+        )
+
+    return inventory.loc[
+        :,
+        list(PUBLIC_INVENTORY_COLUMNS),
+    ].copy()
 
 def main() -> None:
     """Ejecuta el inventario y genera las propuestas."""
@@ -936,9 +980,15 @@ def main() -> None:
         proposals
     )
 
-    write_csv(
-        inventory,
+    public_inventory = prepare_public_inventory(
+        inventory
+    )
+
+    public_inventory.to_csv(
         INVENTORY_PATH,
+        index=False,
+        encoding="utf-8",
+        lineterminator="\n",
     )
 
     write_csv(

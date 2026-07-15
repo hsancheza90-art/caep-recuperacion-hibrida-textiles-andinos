@@ -1,0 +1,7 @@
+﻿museum,culture_mapping_decision,culture_strict_ground_truth_eligible,records,source_categories
+CMA,exclude,False,2,2
+CMA,include_non_strict,False,36,23
+CMA,include_strict,True,50,18
+MET,exclude,False,11,1
+MET,include_non_strict,False,7,4
+MET,include_strict,True,109,9

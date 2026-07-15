@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-
+import pytest
 import pandas as pd
 from PIL import Image
 
@@ -11,6 +11,8 @@ from src.metadata.inventory_local_images import (
     INVENTORY_PATH,
     PROPOSALS_PATH,
     SUMMARY_PATH,
+    PUBLIC_INVENTORY_COLUMNS,
+    prepare_public_inventory,
     build_image_inventory,
     build_image_match_proposals,
     build_proposal_summary,
@@ -26,6 +28,68 @@ CORPUS_PATH = (
     / "processed"
     / "paper_corpus_culture_enriched_v1.csv"
 )
+
+def test_public_inventory_excludes_absolute_paths() -> None:
+    inventory = pd.DataFrame(
+        [
+            {
+                "relative_image_path": (
+                    "data/images/met/MET_307449.jpg"
+                ),
+                "absolute_image_path": (
+                    r"D:\repositorio\data\images\met"
+                    r"\MET_307449.jpg"
+                ),
+                "filename": "MET_307449.jpg",
+                "stem": "MET_307449",
+                "suffix": ".jpg",
+                "filename_normalized": "met307449jpg",
+                "stem_normalized": "met307449",
+                "size_bytes": 100,
+                "image_width": 10,
+                "image_height": 10,
+                "image_format": "JPEG",
+                "image_readable": True,
+                "image_error": "",
+                "sha256": "a" * 64,
+                "inventory_version": "local_inventory_v1",
+            }
+        ]
+    )
+
+    public_inventory = prepare_public_inventory(
+        inventory
+    )
+
+    assert (
+        list(public_inventory.columns)
+        == list(PUBLIC_INVENTORY_COLUMNS)
+    )
+    assert (
+        "absolute_image_path"
+        not in public_inventory.columns
+    )
+    assert public_inventory.loc[
+        0,
+        "relative_image_path",
+    ] == "data/images/met/MET_307449.jpg"
+
+def test_public_inventory_rejects_missing_columns() -> None:
+    inventory = pd.DataFrame(
+        [
+            {
+                "relative_image_path": (
+                    "data/images/met/MET_307449.jpg"
+                )
+            }
+        ]
+    )
+
+    with pytest.raises(
+        ValueError,
+        match="columnas públicas requeridas",
+    ):
+        prepare_public_inventory(inventory)
 
 
 def create_image(

@@ -1,0 +1,250 @@
+﻿field,field_role,category_key,category_label,total_count,met_count,cma_count,museum_count,dominant_museum,museum_dominance,status
+classification,core,textil,Textil,127,127,0,1,MET,1.0,source_specific
+classification,core,textile,Textile,81,0,81,1,CMA,1.0,source_specific
+classification,core,tapestry,Tapestry,4,0,4,1,CMA,1.0,rare
+classification,core,embroidery,Embroidery,2,0,2,1,CMA,1.0,rare
+classification,core,garment,Garment,1,0,1,1,CMA,1.0,rare
+culture,core,paracas,Paracas,37,37,0,1,MET,1.0,source_specific
+culture,core,nasca,Nasca,34,34,0,1,MET,1.0,source_specific
+culture,core,"peru, central coast, chancay, 12th-15th century","Peru, Central Coast, Chancay, 12th-15th century",16,0,16,1,CMA,1.0,source_specific
+culture,core,inca,Inca,15,15,0,1,MET,1.0,source_specific
+culture,core,chancay,Chancay,12,12,0,1,MET,1.0,source_specific
+culture,core,peruvian,Peruvian,11,11,0,1,MET,1.0,source_specific
+culture,core,"peru, south coast, ica valley, ocucaje site, paracas style (700 bce–1 ce)","Peru, South Coast, Ica Valley, Ocucaje site, Paracas style (700 BCE–1 CE)",9,0,9,1,CMA,1.0,source_specific
+culture,core,"peru, south coast, wari culture, middle horizon, 8th-12th century","Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century",5,0,5,1,CMA,1.0,source_specific
+culture,core,wari,Wari,5,5,0,1,MET,1.0,source_specific
+culture,core,nasca (?),Nasca (?),4,4,0,1,MET,1.0,rare
+culture,core,"peru, moche, north coast","Peru, Moche, north coast",4,0,4,1,CMA,1.0,rare
+culture,core,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0,3,1,CMA,1.0,rare
+culture,core,"peru, north coast, chimú culture, 12th-15th century","Peru, North Coast, Chimú Culture, 12th-15th century",3,0,3,1,CMA,1.0,rare
+culture,core,"peru, south coast, ica valley, ocucaje site, paracas style","Peru, South Coast, Ica Valley, Ocucaje site, Paracas style",3,0,3,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas, late period","Peru, South Coast, Paracas, Late Period",3,0,3,1,CMA,1.0,rare
+culture,core,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0,2,1,CMA,1.0,rare
+culture,core,chimú,Chimú,2,2,0,1,MET,1.0,rare
+culture,core,moche,Moche,2,2,0,1,MET,1.0,rare
+culture,core,"peru, central coast, chancay, pachacamac, 12th-15th century","Peru, Central Coast, Chancay, Pachacamac, 12th-15th century",2,0,2,1,CMA,1.0,rare
+culture,core,"peru, recuay","Peru, Recuay",2,0,2,1,CMA,1.0,rare
+culture,core,"peru, south coast, arica culture, or chile, north coast, 13th-15th century","Peru, South Coast, Arica culture, or Chile, North Coast, 13th-15th century",2,0,2,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas","Peru, South Coast, Paracas",2,0,2,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas (cavernas) style","Peru, South Coast, Paracas (Cavernas) style",2,0,2,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas, yauca valley(?)","Peru, South Coast, Paracas, Yauca Valley(?)",2,0,2,1,CMA,1.0,rare
+culture,core,"central andes, north central coast, moche-wari style","Central Andes, North Central Coast, Moche-Wari Style",1,0,1,1,CMA,1.0,rare
+culture,core,"central andes, north coast, chimú people","Central Andes, North Coast, Chimú people",1,0,1,1,CMA,1.0,rare
+culture,core,"central andes, northern central coast","Central Andes, Northern Central Coast",1,0,1,1,CMA,1.0,rare
+culture,core,"central andes, south coast, nasca people","Central Andes, South Coast, Nasca people",1,0,1,1,CMA,1.0,rare
+culture,core,"central andes, central coast, chancay people","Central Andes, central coast, Chancay people",1,0,1,1,CMA,1.0,rare
+culture,core,chuquibamba,Chuquibamba,1,1,0,1,MET,1.0,rare
+culture,core,inca (?),Inca (?),1,1,0,1,MET,1.0,rare
+culture,core,inca and spanish,Inca and Spanish,1,1,0,1,MET,1.0,rare
+culture,core,nasca-wari,Nasca-Wari,1,1,0,1,MET,1.0,rare
+culture,core,"peru, central andes, chimú or chimú-inka, 11th-16th century","Peru, Central Andes, Chimú or Chimú-Inka, 11th-16th century",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, central coast, chancay-chimú style, 11th-15th century","Peru, Central Coast, Chancay-Chimú style, 11th-15th century",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, chimú or chimú-inka, 12th-16th century","Peru, Chimú or Chimú-Inka, 12th-16th century",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, inca, 15th-16th century","Peru, Inca, 15th-16th century",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, north coast, 9th-12th century","Peru, North Coast, 9th-12th Century",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, north coast, chimu-inka","Peru, North Coast, Chimu-Inka",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, north coast, chimú style, 1200-1460s","Peru, North Coast, Chimú style, 1200-1460s",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, north coast, chimú style, 1200–1460s","Peru, North Coast, Chimú style, 1200–1460s",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, north coast, lambayeque (sicán) people","Peru, North Coast, Lambayeque (Sicán) people",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, ica valley ?, inca culture, 15th-16th century","Peru, South Coast, Ica Valley ?, Inca Culture, 15th-16th century",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, ica valley, chavín style","Peru, South Coast, Ica Valley, Chavín style",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, ica valley, ocucaje site?, paracas people","Peru, South Coast, Ica Valley, Ocucaje site?, Paracas people",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, ica valley, ocucaje site?, paracas people (700 bce-1 ce)","Peru, South Coast, Ica Valley, Ocucaje site?, Paracas people (700 BCE-1 CE)",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, inca culture, colonial period, 16th century","Peru, South Coast, Inca Culture, Colonial Period, 16th century",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, nasca-huari style","Peru, South Coast, Nasca-Huari style",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas (700 bc -ad 1), yauca valley?","Peru, South Coast, Paracas (700 BC -AD 1), Yauca Valley?",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas (cavernas) style (700 bce–1 ce)","Peru, South Coast, Paracas (Cavernas) style (700 BCE–1 CE)",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas or nasca?","Peru, South Coast, Paracas or Nasca?",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas, carhua or chucho?","Peru, South Coast, Paracas, Carhua or Chucho?",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, paracas, carhua?","Peru, South Coast, Paracas, Carhua?",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south coast, wari culture, middle horizon, 8th-11th century","Peru, South Coast, Wari Culture, Middle Horizon, 8th-11th Century",1,0,1,1,CMA,1.0,rare
+culture,core,"peru, south highlands or south coast, chuquibamba style, 12th-16th century","Peru, South Highlands or South Coast, Chuquibamba style, 12th-16th century",1,0,1,1,CMA,1.0,rare
+culture,core,recuay,Recuay,1,1,0,1,MET,1.0,rare
+culture,core,"south america, peru, central andes, middle horizon, wari people, 7th-11th century","South America, Peru, Central Andes, Middle Horizon, Wari people, 7th-11th century",1,0,1,1,CMA,1.0,rare
+material,diagnostic,camelid hair,Camelid hair,68,68,0,1,MET,1.0,diagnostic_only
+material,diagnostic,algodón; fibra de camélido,algodón; fibra de camélido,14,14,0,1,MET,1.0,diagnostic_only
+material,diagnostic,fibra de camélido,fibra de camélido,11,11,0,1,MET,1.0,diagnostic_only
+material,diagnostic,"camelid hair, cotton","Camelid hair, cotton",10,10,0,1,MET,1.0,diagnostic_only
+material,diagnostic,cotton,Cotton,7,7,0,1,MET,1.0,diagnostic_only
+material,diagnostic,"cotton, camelid hair","Cotton, camelid hair",6,6,0,1,MET,1.0,diagnostic_only
+material,diagnostic,"cotton, paint","Cotton, paint",4,4,0,1,MET,1.0,diagnostic_only
+material,diagnostic,fibra de camélido; fibra textil,fibra de camélido; fibra textil,3,3,0,1,MET,1.0,diagnostic_only
+material,diagnostic,camelid fiber,Camelid fiber,1,1,0,1,MET,1.0,diagnostic_only
+material,diagnostic,"cotton, pigment","Cotton, pigment",1,1,0,1,MET,1.0,diagnostic_only
+material,diagnostic,algodón,algodón,1,1,0,1,MET,1.0,diagnostic_only
+material,diagnostic,fibra de camélido; lana,fibra de camélido; lana,1,1,0,1,MET,1.0,diagnostic_only
+object_type,core,textile,Textile,81,0,81,1,CMA,1.0,source_specific
+object_type,core,mantle fragment,Mantle fragment,19,19,0,1,MET,1.0,source_specific
+object_type,core,textile fragment,Textile fragment,18,18,0,1,MET,1.0,source_specific
+object_type,core,tunica,tunica,14,14,0,1,MET,1.0,source_specific
+object_type,core,bag,Bag,13,13,0,1,MET,1.0,source_specific
+object_type,core,border fragment,Border Fragment,10,10,0,1,MET,1.0,source_specific
+object_type,core,bolso_textil,bolso_textil,9,9,0,1,MET,1.0,source_specific
+object_type,core,band fragment,Band fragment,6,6,0,1,MET,1.0,source_specific
+object_type,core,headband,Headband,6,6,0,1,MET,1.0,source_specific
+object_type,core,panel,Panel,6,6,0,1,MET,1.0,source_specific
+object_type,core,sash fragment,Sash fragment,4,4,0,1,MET,1.0,rare
+object_type,core,tapestry,Tapestry,4,0,4,1,CMA,1.0,rare
+object_type,core,tunic,Tunic,4,4,0,1,MET,1.0,rare
+object_type,core,fragment,Fragment,3,3,0,1,MET,1.0,rare
+object_type,core,embroidery,Embroidery,2,0,2,1,CMA,1.0,rare
+object_type,core,sash,Sash,2,2,0,1,MET,1.0,rare
+object_type,core,panel_textil,panel_textil,2,2,0,1,MET,1.0,rare
+object_type,core,tapiz_textil,tapiz_textil,2,2,0,1,MET,1.0,rare
+object_type,core,vestimenta_textil,vestimenta_textil,2,2,0,1,MET,1.0,rare
+object_type,core,bag fragment,Bag fragment,1,1,0,1,MET,1.0,rare
+object_type,core,band,Band,1,1,0,1,MET,1.0,rare
+object_type,core,belt,Belt,1,1,0,1,MET,1.0,rare
+object_type,core,garment,Garment,1,0,1,1,CMA,1.0,rare
+object_type,core,mask,Mask,1,1,0,1,MET,1.0,rare
+object_type,core,tassels,Tassels,1,1,0,1,MET,1.0,rare
+object_type,core,tunic fragment,Tunic fragment,1,1,0,1,MET,1.0,rare
+object_type,core,manto,manto,1,1,0,1,MET,1.0,rare
+period,core,7th century,7th century,29,29,0,1,MET,1.0,source_specific
+period,core,c. 1100–1400,c. 1100–1400,20,0,20,1,CMA,1.0,source_specific
+period,core,5th–2nd century bce,5th–2nd century BCE,18,18,0,1,MET,1.0,source_specific
+period,core,15th–16th century,15th–16th century,9,9,0,1,MET,1.0,source_specific
+period,core,3rd–2nd century bce,3rd–2nd century BCE,9,9,0,1,MET,1.0,source_specific
+period,core,200–1 bce,200–1 BCE,6,0,6,1,CMA,1.0,source_specific
+period,core,400–200 bce,400–200 BCE,6,0,6,1,CMA,1.0,source_specific
+period,core,12th–14th century,12th–14th century,5,5,0,1,MET,1.0,source_specific
+period,core,14th–early 16th century,14th–early 16th century,5,5,0,1,MET,1.0,source_specific
+period,core,7th–9th century,7th–9th century,4,4,0,1,MET,1.0,rare
+period,core,c. 50–650 ce,c. 50–650 CE,4,0,4,1,CMA,1.0,rare
+period,core,c. 700–1100,c. 700–1100,4,0,4,1,CMA,1.0,rare
+period,core,10th–15th century,10th–15th century,3,3,0,1,MET,1.0,rare
+period,core,12th–15th century,12th–15th century,3,3,0,1,MET,1.0,rare
+period,core,2nd–7th century,2nd–7th century,3,3,0,1,MET,1.0,rare
+period,core,700–400 bce,700–400 BCE,3,0,3,1,CMA,1.0,rare
+period,core,7th–10th century,7th–10th century,3,3,0,1,MET,1.0,rare
+period,core,1000–1460s,1000–1460s,2,0,2,1,CMA,1.0,rare
+period,core,10th–14th century,10th–14th century,2,2,0,1,MET,1.0,rare
+period,core,1200–1400,1200–1400,2,0,2,1,CMA,1.0,rare
+period,core,1400–1532,1400–1532,2,0,2,1,CMA,1.0,rare
+period,core,1450–1550,1450–1550,2,2,0,1,MET,1.0,rare
+period,core,1460–1540,1460–1540,2,2,0,1,MET,1.0,rare
+period,core,"170 bce–70 ce (radiocarbon date, 95% probability)","170 BCE–70 CE (radiocarbon date, 95% probability)",2,0,2,1,CMA,1.0,rare
+period,core,200 bce–1 ce,200 BCE–1 CE,2,0,2,1,CMA,1.0,rare
+period,core,400 bce–700 ce,400 BCE–700 CE,2,0,2,1,CMA,1.0,rare
+period,core,4th–3rd century bce,4th–3rd century BCE,2,2,0,1,MET,1.0,rare
+period,core,5th–3rd century bce,5th–3rd century BCE,2,2,0,1,MET,1.0,rare
+period,core,5th–4th century bce,5th–4th century BCE,2,2,0,1,MET,1.0,rare
+period,core,600–1000,600–1000,2,0,2,1,CMA,1.0,rare
+period,core,650–1000 ce,650–1000 CE,2,2,0,1,MET,1.0,rare
+period,core,8th–9th century,8th–9th century,2,2,0,1,MET,1.0,rare
+period,core,c. 300 bce–200 ce,c. 300 BCE–200 CE,2,0,2,1,CMA,1.0,rare
+period,core,c. 300–100 bce,c. 300–100 BCE,2,0,2,1,CMA,1.0,rare
+period,core,c. 500–1000,c. 500–1000,2,0,2,1,CMA,1.0,rare
+period,core,1000–1532,1000–1532,1,0,1,1,CMA,1.0,rare
+period,core,1100–1400,1100–1400,1,1,0,1,MET,1.0,rare
+period,core,1100–1532,1100–1532,1,0,1,1,CMA,1.0,rare
+period,core,1400–1530,1400–1530,1,1,0,1,MET,1.0,rare
+period,core,1405–1640,1405–1640,1,0,1,1,CMA,1.0,rare
+period,core,"1425–1500 (radiocarbon date, 92.3% probability)","1425–1500 (radiocarbon date, 92.3% probability)",1,0,1,1,CMA,1.0,rare
+period,core,1460s–1532,1460s–1532,1,0,1,1,CMA,1.0,rare
+period,core,1460–1626,1460–1626,1,1,0,1,MET,1.0,rare
+period,core,"1460–1632 (radiocarbon date, 95% probability)","1460–1632 (radiocarbon date, 95% probability)",1,0,1,1,CMA,1.0,rare
+period,core,15th–early 16th century,15th–early 16th century,1,1,0,1,MET,1.0,rare
+period,core,15th–early 17th century,15th–early 17th century,1,1,0,1,MET,1.0,rare
+period,core,1600–1700,1600–1700,1,1,0,1,MET,1.0,rare
+period,core,16th century,16th century,1,0,1,1,CMA,1.0,rare
+period,core,17th–18th century,17th–18th century,1,1,0,1,MET,1.0,rare
+period,core,19th century,19th century,1,1,0,1,MET,1.0,rare
+period,core,1st century bce–2nd century ce,1st century BCE–2nd century CE,1,1,0,1,MET,1.0,rare
+period,core,200 bce–200 ce,200 BCE–200 CE,1,0,1,1,CMA,1.0,rare
+period,core,200–700 ce,200–700 CE,1,1,0,1,MET,1.0,rare
+period,core,2nd century bce,2nd century BCE,1,1,0,1,MET,1.0,rare
+period,core,300–100 bce,300–100 BCE,1,0,1,1,CMA,1.0,rare
+period,core,3rd century bce–1st century ce,3rd century BCE–1st century CE,1,1,0,1,MET,1.0,rare
+period,core,"410–540 ce (radiocarbon date, 93% probability)","410–540 CE (radiocarbon date, 93% probability)",1,0,1,1,CMA,1.0,rare
+period,core,450–175 bce,450–175 BCE,1,1,0,1,MET,1.0,rare
+period,core,4th–2nd century bce,4th–2nd century BCE,1,1,0,1,MET,1.0,rare
+period,core,500–200 bce,500–200 BCE,1,0,1,1,CMA,1.0,rare
+period,core,500–850 ce,500–850 CE,1,1,0,1,MET,1.0,rare
+period,core,650-850 ce,650-850 CE,1,1,0,1,MET,1.0,rare
+period,core,650–850,650–850,1,0,1,1,CMA,1.0,rare
+period,core,6th–5th century bce,6th–5th century BCE,1,1,0,1,MET,1.0,rare
+period,core,6th–8th century,6th–8th century,1,1,0,1,MET,1.0,rare
+period,core,700–1 bce,700–1 BCE,1,0,1,1,CMA,1.0,rare
+period,core,700–1100 a.d.,700–1100 A.D.,1,0,1,1,CMA,1.0,rare
+period,core,700–1370s,700–1370s,1,0,1,1,CMA,1.0,rare
+period,core,800–1100,800–1100,1,0,1,1,CMA,1.0,rare
+period,core,800–1200?,800–1200?,1,0,1,1,CMA,1.0,rare
+period,core,800–850 ce,800–850 CE,1,1,0,1,MET,1.0,rare
+period,core,c. 1100–1532,c. 1100–1532,1,0,1,1,CMA,1.0,rare
+period,core,c. 1400–1532,c. 1400–1532,1,0,1,1,CMA,1.0,rare
+period,core,c. 1400–1540,c. 1400–1540,1,0,1,1,CMA,1.0,rare
+period,core,c. 600–400 bce,c. 600–400 BCE,1,0,1,1,CMA,1.0,rare
+period,core,c. 600–700,c. 600–700,1,0,1,1,CMA,1.0,rare
+period,core,c. 650–100 bce,c. 650–100 BCE,1,0,1,1,CMA,1.0,rare
+period,core,c. 700–1100 a.d.,c. 700–1100 A.D.,1,0,1,1,CMA,1.0,rare
+period,core,c.1100–1400 a.d.,c.1100–1400 A.D.,1,0,1,1,CMA,1.0,rare
+period,core,late 16th–17th century,late 16th–17th century,1,1,0,1,MET,1.0,rare
+technique,diagnostic,tejido,tejido,22,22,0,1,MET,1.0,diagnostic_only
+technique,diagnostic,plain compound cloth; cotton,plain compound cloth; cotton,5,0,5,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"camelid fiber and cotton, tapestry weave","camelid fiber and cotton, tapestry weave",4,0,4,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton and camelid fiber,cotton and camelid fiber,4,0,4,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"plain warp-faced cloth, painted: cotton","plain warp-faced cloth, painted: cotton",4,0,4,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"tabby with inset border of fancy twill, brocaded; cotton and wool","tabby with inset border of fancy twill, brocaded; cotton and wool",4,0,4,1,CMA,1.0,diagnostic_only
+technique,diagnostic,tapiz; tejido,tapiz; tejido,4,4,0,1,MET,1.0,diagnostic_only
+technique,diagnostic,bordado; tejido,bordado; tejido,3,3,0,1,MET,1.0,diagnostic_only
+technique,diagnostic,"cotton and pigment, plain weave","cotton and pigment, plain weave",3,0,3,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton and pigment; plain weave,Cotton and pigment; plain weave,2,0,2,1,CMA,1.0,diagnostic_only
+technique,diagnostic,alpaca wool,alpaca wool,2,0,2,1,CMA,1.0,diagnostic_only
+technique,diagnostic,camelid fiber; double-cloth with structural embroidery,camelid fiber; double-cloth with structural embroidery,2,0,2,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton and camelid fiber; plain weave with supplementary weft (brocade),cotton and camelid fiber; plain weave with supplementary weft (brocade),2,0,2,1,CMA,1.0,diagnostic_only
+technique,diagnostic,single-interlocked tapestry; cotton warp; camelid fiber weft,single-interlocked tapestry; cotton warp; camelid fiber weft,2,0,2,1,CMA,1.0,diagnostic_only
+technique,diagnostic,alpaca wool: plain weave with embroidery and warp substitution,Alpaca wool: plain weave with embroidery and warp substitution,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"camelid fiber, cotton; tapestry weave","Camelid fiber, cotton; tapestry weave",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"cotton, camelid fiber","Cotton, camelid fiber",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton; slit tapestry weave,Cotton; slit tapestry weave,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,camelid fiber and cotton; brocaded plain-weave,camelid fiber and cotton; brocaded plain-weave,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"camelid fiber and cotton; tapestry-weave yoke and chest plaque, plain-weave body","camelid fiber and cotton; tapestry-weave yoke and chest plaque, plain-weave body",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"camelid fiber, embroidery over foundation cloth","camelid fiber, embroidery over foundation cloth",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,camelid fiber: plain weave with embroidery,camelid fiber: plain weave with embroidery,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,camelid fiber; tapestry and complementary-weft weave,camelid fiber; tapestry and complementary-weft weave,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"camelid-fiber, cotton; tapestry weave","camelid-fiber, cotton; tapestry weave",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"cotton and camelid fiber, tapestry weave with areas of eccentric weft floats","cotton and camelid fiber, tapestry weave with areas of eccentric weft floats",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton and pigment (field); camelid fiber (borders and fringe),cotton and pigment (field); camelid fiber (borders and fringe),1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton plain cloth embroidered in wool outline stitch,cotton plain cloth embroidered in wool outline stitch,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"cotton: plain warp-faced cloth, painted","cotton: plain warp-faced cloth, painted",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton: plain weave patterned by fiber-wrapped warps and supplementary wefts,cotton: plain weave patterned by fiber-wrapped warps and supplementary wefts,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton; camelid fiber; tapestry and plain-weave,cotton; camelid fiber; tapestry and plain-weave,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton; double-cloth,cotton; double-cloth,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton; dye-patterned plain weave,cotton; dye-patterned plain weave,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,cotton; gauze,cotton; gauze,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"cotton; plain weave, brocaded and complex alternating gauze with 3 or 5 shots of plain weave between gauze shots","cotton; plain weave, brocaded and complex alternating gauze with 3 or 5 shots of plain weave between gauze shots",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"cotton; plain weave, brocaded and complex alternating gauze with 5 shots of plain weave between gauze shots","cotton; plain weave, brocaded and complex alternating gauze with 5 shots of plain weave between gauze shots",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"discontinuous warp and weft, tie-dyed; wool","discontinuous warp and weft, tie-dyed; wool",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,embroidery on plain wool ground,embroidery on plain wool ground,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,embroidery on wool ground,embroidery on wool ground,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,interlocked tapestry; cotton and wool,interlocked tapestry; cotton and wool,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,interlocking warp and weft: wool,interlocking warp and weft: wool,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,looped camelid fiber,looped camelid fiber,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,plain cloth with overlaid tapestry-like decoration; cotton and wool,plain cloth with overlaid tapestry-like decoration; cotton and wool,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"plain cloth, brocaded; cotton","plain cloth, brocaded; cotton",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"plain cloth, painted; cotton","plain cloth, painted; cotton",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,plain compound twill and plain compound tabby; cotton,plain compound twill and plain compound tabby; cotton,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"plain tabby, brocaded: wool and cotton","plain tabby, brocaded: wool and cotton",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"plain warp-faced cloth, painted","plain warp-faced cloth, painted",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"plain weave, tapestry weave; cotton, camelid fiber","plain weave, tapestry weave; cotton, camelid fiber",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"slit tapestry, cotton warp, camelid-fiber wefts","slit tapestry, cotton warp, camelid-fiber wefts",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,tabby weave with supplementary pattern weft; cotton,tabby weave with supplementary pattern weft; cotton,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"tabby weave, double cloth; cotton","tabby weave, double cloth; cotton",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"tabby weave, warp patterned; wool","tabby weave, warp patterned; wool",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"tabby, brocaded; border: single-face pattern weave (fancy twill); cotton and wool","tabby, brocaded; border: single-face pattern weave (fancy twill); cotton and wool",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"tabby, brocaded; cotton","tabby, brocaded; cotton",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"tapestry and fancy twill, brocaded; twill","tapestry and fancy twill, brocaded; twill",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,tapestry weave: wool,tapestry weave: wool,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,tapestry weave; cotton and wool,tapestry weave; cotton and wool,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,tapestry with interlocked wefts: wool and cotton,tapestry with interlocked wefts: wool and cotton,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,tapestry: cotton and wool,tapestry: cotton and wool,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,tapestry; cotton and camelid fiber,tapestry; cotton and camelid fiber,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,tapestry; interlocked wefts and areas of eccentric weaving: wool and cotton,tapestry; interlocked wefts and areas of eccentric weaving: wool and cotton,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,triple cloth: wool,triple cloth: wool,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"two pieces plain cloth, two pieces compound twill; cotton","two pieces plain cloth, two pieces compound twill; cotton",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,"warp-faced cloth, painted: cotton","warp-faced cloth, painted: cotton",1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,white cotton; plain weave with supplementary weft brocading,white cotton; plain weave with supplementary weft brocading,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,wool,wool,1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,wool and cotton: needle reseau (netting),wool and cotton: needle reseau (netting),1,0,1,1,CMA,1.0,diagnostic_only
+technique,diagnostic,wool embroidery on wool tabby ground,wool embroidery on wool tabby ground,1,0,1,1,CMA,1.0,diagnostic_only

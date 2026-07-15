@@ -1,0 +1,57 @@
+﻿museum,left_field,right_field,left_label,left_key,right_label,right_key,count,same_normalized_label
+ALL,classification,object_type,Textile,textile,Textile,textile,81,True
+ALL,classification,object_type,Textil,textil,Mantle fragment,mantle fragment,19,False
+ALL,classification,object_type,Textil,textil,Textile fragment,textile fragment,18,False
+ALL,classification,object_type,Textil,textil,tunica,tunica,14,False
+ALL,classification,object_type,Textil,textil,Bag,bag,13,False
+ALL,classification,object_type,Textil,textil,bolso_textil,bolso_textil,9,False
+ALL,classification,object_type,Textil,textil,Border Fragment,border fragment,8,False
+ALL,classification,object_type,Textil,textil,Band fragment,band fragment,6,False
+ALL,classification,object_type,Textil,textil,Headband,headband,6,False
+ALL,classification,object_type,Textil,textil,Panel,panel,6,False
+ALL,classification,object_type,Tapestry,tapestry,Tapestry,tapestry,4,True
+ALL,classification,object_type,Textil,textil,Sash fragment,sash fragment,4,False
+ALL,classification,object_type,Textil,textil,Tunic,tunic,4,False
+ALL,classification,object_type,Textil,textil,Fragment,fragment,3,False
+ALL,classification,object_type,Embroidery,embroidery,Embroidery,embroidery,2,True
+ALL,classification,object_type,Textil,textil,Border fragment,border fragment,2,False
+ALL,classification,object_type,Textil,textil,Sash,sash,2,False
+ALL,classification,object_type,Textil,textil,panel_textil,panel_textil,2,False
+ALL,classification,object_type,Textil,textil,tapiz_textil,tapiz_textil,2,False
+ALL,classification,object_type,Textil,textil,vestimenta_textil,vestimenta_textil,2,False
+ALL,classification,object_type,Garment,garment,Garment,garment,1,True
+ALL,classification,object_type,Textil,textil,Bag fragment,bag fragment,1,False
+ALL,classification,object_type,Textil,textil,Band,band,1,False
+ALL,classification,object_type,Textil,textil,Belt,belt,1,False
+ALL,classification,object_type,Textil,textil,Mask,mask,1,False
+ALL,classification,object_type,Textil,textil,Tassels,tassels,1,False
+ALL,classification,object_type,Textil,textil,Tunic fragment,tunic fragment,1,False
+ALL,classification,object_type,Textil,textil,manto,manto,1,False
+CMA,classification,object_type,Textile,textile,Textile,textile,81,True
+CMA,classification,object_type,Tapestry,tapestry,Tapestry,tapestry,4,True
+CMA,classification,object_type,Embroidery,embroidery,Embroidery,embroidery,2,True
+CMA,classification,object_type,Garment,garment,Garment,garment,1,True
+MET,classification,object_type,Textil,textil,Mantle fragment,mantle fragment,19,False
+MET,classification,object_type,Textil,textil,Textile fragment,textile fragment,18,False
+MET,classification,object_type,Textil,textil,tunica,tunica,14,False
+MET,classification,object_type,Textil,textil,Bag,bag,13,False
+MET,classification,object_type,Textil,textil,bolso_textil,bolso_textil,9,False
+MET,classification,object_type,Textil,textil,Border Fragment,border fragment,8,False
+MET,classification,object_type,Textil,textil,Band fragment,band fragment,6,False
+MET,classification,object_type,Textil,textil,Headband,headband,6,False
+MET,classification,object_type,Textil,textil,Panel,panel,6,False
+MET,classification,object_type,Textil,textil,Sash fragment,sash fragment,4,False
+MET,classification,object_type,Textil,textil,Tunic,tunic,4,False
+MET,classification,object_type,Textil,textil,Fragment,fragment,3,False
+MET,classification,object_type,Textil,textil,Border fragment,border fragment,2,False
+MET,classification,object_type,Textil,textil,Sash,sash,2,False
+MET,classification,object_type,Textil,textil,panel_textil,panel_textil,2,False
+MET,classification,object_type,Textil,textil,tapiz_textil,tapiz_textil,2,False
+MET,classification,object_type,Textil,textil,vestimenta_textil,vestimenta_textil,2,False
+MET,classification,object_type,Textil,textil,Bag fragment,bag fragment,1,False
+MET,classification,object_type,Textil,textil,Band,band,1,False
+MET,classification,object_type,Textil,textil,Belt,belt,1,False
+MET,classification,object_type,Textil,textil,Mask,mask,1,False
+MET,classification,object_type,Textil,textil,Tassels,tassels,1,False
+MET,classification,object_type,Textil,textil,Tunic fragment,tunic fragment,1,False
+MET,classification,object_type,Textil,textil,manto,manto,1,False
