@@ -19,12 +19,11 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Datos descargados y derivados
-data/images/*
-!data/images/met/
-!data/images/cma/
-!data/images/met/.gitkeep
-!data/images/cma/.gitkeep
+# Imágenes descargadas: artefactos locales reconstruibles
+# Se conservan únicamente los directorios vacíos mediante .gitkeep.
+data/images/**
+!data/images/**/
+!data/images/**/.gitkeep
 
 data/interim/*
 !data/interim/.gitkeep

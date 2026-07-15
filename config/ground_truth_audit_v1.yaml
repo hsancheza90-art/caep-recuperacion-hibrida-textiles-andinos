@@ -1,0 +1,23 @@
+audit:
+  name: ground_truth_category_audit
+  version: "1.0.0"
+
+  core_fields:
+    - culture
+    - period
+    - object_type
+    - classification
+
+  diagnostic_fields:
+    - material
+    - technique
+
+  thresholds:
+    min_total_support: 5
+    min_support_per_museum: 2
+    min_museums: 2
+    max_museum_dominance: 0.85
+
+  expected_museums:
+    - MET
+    - CMA

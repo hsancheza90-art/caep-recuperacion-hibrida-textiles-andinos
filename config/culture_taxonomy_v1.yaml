@@ -1,0 +1,91 @@
+taxonomy:
+  name: andean_culture_taxonomy
+  version: "1.0.0"
+
+cultures:
+  - canonical_label: Paracas
+    aliases:
+      - paracas
+
+  - canonical_label: Nasca
+    aliases:
+      - nasca
+      - nazca
+
+  - canonical_label: Wari
+    aliases:
+      - wari
+      - huari
+
+  - canonical_label: Chancay
+    aliases:
+      - chancay
+
+  - canonical_label: Inca
+    aliases:
+      - inca
+      - inka
+
+  - canonical_label: Chimu
+    display_label: Chimú
+    aliases:
+      - chimu
+
+  - canonical_label: Moche
+    aliases:
+      - moche
+
+  - canonical_label: Lambayeque_Sican
+    display_label: Lambayeque/Sicán
+    aliases:
+      - lambayeque
+      - sican
+
+  - canonical_label: Chavin
+    display_label: Chavín
+    aliases:
+      - chavin
+
+  - canonical_label: Recuay
+    aliases:
+      - recuay
+
+  - canonical_label: Chuquibamba
+    aliases:
+      - chuquibamba
+
+  - canonical_label: Ychsma
+    aliases:
+      - ychsma
+      - ichsma
+
+  - canonical_label: Arica
+    aliases:
+      - arica
+
+  - canonical_label: Spanish
+    display_label: Española
+    aliases:
+      - spanish
+      - espanol
+
+signals:
+  uncertainty:
+    - "(?)"
+    - "?"
+    - " or "
+    - "possibly"
+    - "probably"
+
+  style:
+    - " style"
+    - "estilo"
+
+  geographic_only:
+    - peruvian
+    - peru
+    - central andes
+    - south america
+    - central coast
+    - north coast
+    - south coast
