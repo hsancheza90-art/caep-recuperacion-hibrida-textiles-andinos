@@ -1,0 +1,10 @@
+﻿ranking_method,generator_seed,reference_version,culture_canonical,evaluation_scope,query_count,mrr,precision_at_1,recall_at_1,ndcg_at_1,precision_at_5,recall_at_5,ndcg_at_5,precision_at_10,recall_at_10,ndcg_at_10
+oracle_culture,-1,reference_rankings_v1,Chancay,strict_culture_universe,31,1.0,1.0,0.03333333333333333,1.0,1.0,0.16666666666666666,1.0,1.0,0.3333333333333333,1.0
+oracle_culture,-1,reference_rankings_v1,Chimu,strict_culture_universe,6,1.0,1.0,0.20000000000000004,1.0,1.0,1.0,1.0,0.5,1.0,1.0
+oracle_culture,-1,reference_rankings_v1,Inca,strict_culture_universe,17,1.0,1.0,0.0625,1.0,1.0,0.3125,1.0,1.0,0.625,1.0
+oracle_culture,-1,reference_rankings_v1,Moche,strict_culture_universe,6,1.0,1.0,0.20000000000000004,1.0,1.0,1.0,1.0,0.5,1.0,1.0
+oracle_culture,-1,reference_rankings_v1,Nasca,strict_culture_universe,35,1.0,1.0,0.02941176470588235,1.0,1.0,0.14705882352941177,1.0,1.0,0.29411764705882354,1.0
+oracle_culture,-1,reference_rankings_v1,Paracas,strict_culture_universe,42,1.0,1.0,0.024390243902439025,1.0,1.0,0.12195121951219512,1.0,1.0,0.24390243902439024,1.0
+oracle_culture,-1,reference_rankings_v1,Recuay,strict_culture_universe,3,1.0,1.0,0.5,1.0,0.4000000000000001,1.0,1.0,0.20000000000000004,1.0,1.0
+oracle_culture,-1,reference_rankings_v1,Wari,strict_culture_universe,15,1.0,1.0,0.07142857142857142,1.0,1.0,0.35714285714285715,1.0,1.0,0.7142857142857143,1.0
+oracle_culture,-1,reference_rankings_v1,Ychsma,strict_culture_universe,2,1.0,1.0,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0

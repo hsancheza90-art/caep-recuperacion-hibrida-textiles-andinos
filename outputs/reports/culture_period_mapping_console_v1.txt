@@ -1,0 +1,168 @@
+﻿
+RESUMEN
+======================================================================================================================
+  field museum  source_categories  represented_records
+culture    CMA                 43                   88
+culture    MET                 14                  127
+ period    CMA                 41                   88
+ period    MET                 39                  127
+
+======================================================================================================================
+CULTURE — MET
+======================================================================================================================
+    source_label  record_count                                            example_titles
+         Paracas            37         Manto textil || Fragmento textil || Objeto textil
+           Nasca            34         Bolsa textil || Túnica textil || Fragmento textil
+            Inca            15             Bolsa textil || Panel textil || Túnica textil
+         Chancay            12 Fragmento textil || Panel textil || Banda o vincha textil
+        Peruvian            11          Bolsa textil || Fragmento textil || Manto textil
+            Wari             5                                             Túnica textil
+       Nasca (?)             4 Fragmento textil || Bolsa textil || Banda o vincha textil
+           Chimú             2                              Faja textil || Túnica textil
+           Moche             2                             Objeto textil || Bolsa textil
+     Chuquibamba             1                                             Objeto textil
+        Inca (?)             1                                          Fragmento textil
+Inca and Spanish             1                                             Objeto textil
+      Nasca-Wari             1                                             Túnica textil
+          Recuay             1                                               Faja textil
+
+======================================================================================================================
+CULTURE — CMA
+======================================================================================================================
+                                                              source_label  record_count                                                                                                       example_titles
+                           Peru, Central Coast, Chancay, 12th-15th century            16           Fragment Composed of Two Fabrics Joined || Fragment formed of Four Separate Fabrics Joined || Border Strip
+ Peru, South Coast, Ica Valley, Ocucaje site, Paracas style (700 BCE–1 CE)             9                                                                                                  Mummy Bundle "Mask"
+         Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century             5                             Tie-Dyed Fragment || Mantle Corner Fragment || Tunic with Profile Animal and Human Heads
+                                                  Peru, Moche, north coast             4                                                                                Textile Fragments || Textile Fragment
+                     Central Andes, Middle Horizon, Wari, 6th-11th century             3                                                 Tunic Fragments with Bird-Headed Creature || Half of a Sleeved Tunic
+                       Peru, North Coast, Chimú Culture, 12th-15th century             3                                                                    Fragment || Fragment from a Mantle || Large Cloth
+                Peru, South Coast, Ica Valley, Ocucaje site, Paracas style             3                                                                                                  Mummy Bundle "Mask"
+                                   Peru, South Coast, Paracas, Late Period             3                                        Fragment of a Border || Fragment of Embroidered Cloth || Turban Band (Llauto)
+                  Central Andes, Central Coast, Ychsma (Pachacamac) people             2                                                                   Fish-Shaped Applique || Tunic with Frontal Figures
+               Peru, Central Coast, Chancay, Pachacamac, 12th-15th century             2                                                                                      Unfinished Cloth || Textile Bag
+                                                              Peru, Recuay             2                                                                                         Triple Cloth || Double Cloth
+Peru, South Coast, Arica culture, or Chile, North Coast, 13th-15th century             2                                                                                                      Trapezoidal Bag
+                                                Peru, South Coast, Paracas             2                                                                                       Mantle || Embroidered Fragment
+                               Peru, South Coast, Paracas (Cavernas) style             2                                                                                                      Mantle || Tunic
+                               Peru, South Coast, Paracas, Yauca Valley(?)             2 Textile Fragment with Frontal Deity Heads, Felines, and Interlace Pattern || Textile Fragment with Interlace Pattern
+                      Central Andes, North Central Coast, Moche-Wari Style             1                                                                                     Tapestry-woven Yoke from a Tunic
+                                  Central Andes, North Coast, Chimú people             1                                                                                   Two Tapestry-woven Panel Fragments
+                                     Central Andes, Northern Central Coast             1                                                                               Tunic (Shirt) with Tapestry-woven Yoke
+                                  Central Andes, South Coast, Nasca people             1                                                                                     Cloth with Procession of Figures
+                              Central Andes, central coast, Chancay people             1                                                                                                        Sleeved Tunic
+               Peru, Central Andes, Chimú or Chimú-Inka, 11th-16th century             1                                                                                     Loincloth with Feather(?) Motifs
+               Peru, Central Coast, Chancay-Chimú style, 11th-15th century             1                                                                                                       Tapestry Panel
+                              Peru, Chimú or Chimú-Inka, 12th-16th century             1                                                                                                                Tunic
+                                             Peru, Inca, 15th-16th century             1                                                                                                                Tunic
+                                       Peru, North Coast, 9th-12th Century             1                                                                                                     Textile Fragment
+
+======================================================================================================================
+PERIOD — MET
+======================================================================================================================
+           source_label  record_count                                             example_titles
+            7th century            29               Bolsa textil || Túnica textil || Faja textil
+    5th–2nd century BCE            18                           Manto textil || Fragmento textil
+      15th–16th century             9           Bolsa textil || Panel textil || Fragmento textil
+    3rd–2nd century BCE             9                           Manto textil || Fragmento textil
+      12th–14th century             5                           Fragmento textil || Panel textil
+14th–early 16th century             5         Fragmento textil || Túnica textil || Objeto textil
+        7th–9th century             4                              Panel textil || Túnica textil
+      10th–15th century             3            Bolsa textil || Fragmento textil || Faja textil
+      12th–15th century             3                     Banda o vincha textil || Objeto textil
+        2nd–7th century             3                      Bolsa textil || Banda o vincha textil
+       7th–10th century             3 Fragmento textil || Túnica textil || Banda o vincha textil
+      10th–14th century             2                  Fragmento textil || Banda o vincha textil
+              1450–1550             2                                              Túnica textil
+              1460–1540             2                                              Túnica textil
+    4th–3rd century BCE             2                                           Fragmento textil
+    5th–3rd century BCE             2                                           Fragmento textil
+    5th–4th century BCE             2                                           Fragmento textil
+            650–1000 CE             2                                              Túnica textil
+        8th–9th century             2                                               Bolsa textil
+              1100–1400             1                                               Panel textil
+              1400–1530             1                                              Túnica textil
+              1460–1626             1                                              Túnica textil
+15th–early 16th century             1                                           Fragmento textil
+15th–early 17th century             1                                              Túnica textil
+              1600–1700             1                                              Objeto textil
+
+======================================================================================================================
+PERIOD — CMA
+======================================================================================================================
+                                     source_label  record_count                                                                                                                                                                            example_titles
+                                     c. 1100–1400            20                                                                                    Fragment Composed of Two Fabrics Joined || Fragment formed of Four Separate Fabrics Joined || Fragment
+                                        200–1 BCE             6                                                                                                                            Mummy Bundle "Mask" || Fragment of a Mantle with Oculate Being
+                                      400–200 BCE             6                                                                                                                         Tunic || Mummy Bundle "Mask" || Tunic with Double-headed Serpents
+                                     c. 50–650 CE             4                                                                                                                                                     Textile Fragments || Textile Fragment
+                                      c. 700–1100             4                                                                                                              Mantle Corner Fragment || Tunic with Profile Animal and Human Heads || Tunic
+                                      700–400 BCE             3 Textile Fragment with Three Frontal Deities and Interlace Pattern || Textile Fragment with Frontal Deity Heads, Felines, and Interlace Pattern || Textile Fragment with Interlace Pattern
+                                       1000–1460s             2                                                                                                                                      Two Tapestry-woven Panel Fragments || Tapestry Panel
+                                        1200–1400             2                                                                                                                                                                           Trapezoidal Bag
+                                        1400–1532             2                                                                                                                                        Fish-Shaped Applique || Tunic with Frontal Figures
+170 BCE–70 CE (radiocarbon date, 95% probability)             2                                                                                                                                   Mummy Bundle "Mask" || Cloth with Procession of Figures
+                                     200 BCE–1 CE             2                                                                                                                                                                       Mummy Bundle "Mask"
+                                   400 BCE–700 CE             2                                                                                                                                                              Triple Cloth || Double Cloth
+                                         600–1000             2                                                                                                                        Tunic Fragments with Bird-Headed Creature || Tunic with Sacrificer
+                                c. 300 BCE–200 CE             2                                                                                                                                                                           Mantle || Tunic
+                                   c. 300–100 BCE             2                                                                                                                                     Fragment of Embroidered Cloth || Turban Band (Llauto)
+                                      c. 500–1000             2                                                                                                                                                                   Half of a Sleeved Tunic
+                                        1000–1532             1                                                                                                                                                          Loincloth with Feather(?) Motifs
+                                        1100–1532             1                                                                                                                                                                                     Tunic
+                                        1405–1640             1                                                                                                    Peruvian Textiles: Mantle or Hanging, Loincloth, Turban, Padded Hat, Band with Tassels
+  1425–1500 (radiocarbon date, 92.3% probability)             1                                                                                                                                                                                 Loincloth
+                                       1460s–1532             1                                                                                                                                                                             Sleeved Tunic
+    1460–1632 (radiocarbon date, 95% probability)             1                                                                                                                                                                               Large Cloth
+                                     16th century             1                                                                                                                                                                                Half Tunic
+                                   200 BCE–200 CE             1                                                                                                                                                 Mantle Border Fragment with Oculate Being
+                                      300–100 BCE             1                                                                                                                                                                      Fragment of a Border
+
+SUGERENCIAS LEXICALES PRINCIPALES
+======================================================================================================================
+  field met_source_label                                                                  cma_source_label  met_count  cma_count  token_jaccard  substring_match common_tokens
+culture           Recuay                                                                      Peru, Recuay          1          2       0.500000             True        recuay
+culture            Moche                                                          Peru, Moche, north coast          2          4       0.250000             True         moche
+culture          Paracas                                                        Peru, South Coast, Paracas         37          2       0.250000             True       paracas
+culture          Chancay                                      Central Andes, central coast, Chancay people         12          1       0.200000             True       chancay
+culture            Chimú                                                     Peru, North Coast, Chimu-Inka          2          1       0.200000             True         chimu
+culture             Inca                                                     Peru, Inca, 15th-16th century         15          1       0.200000             True          inca
+culture         Inca (?)                                                     Peru, Inca, 15th-16th century          1          1       0.200000             True          inca
+culture          Paracas                                               Peru, South Coast, Paracas, Carhua?         37          1       0.200000             True       paracas
+culture            Chimú                                          Central Andes, North Coast, Chimú people          2          1       0.166667             True         chimu
+culture            Nasca                                          Central Andes, South Coast, Nasca people         34          1       0.166667             True         nasca
+culture            Nasca                                              Peru, South Coast, Nasca-Huari style         34          1       0.166667             True         nasca
+culture            Nasca                                              Peru, South Coast, Paracas or Nasca?         34          1       0.166667             True         nasca
+culture        Nasca (?)                                          Central Andes, South Coast, Nasca people          4          1       0.166667             True         nasca
+culture        Nasca (?)                                              Peru, South Coast, Nasca-Huari style          4          1       0.166667             True         nasca
+culture        Nasca (?)                                              Peru, South Coast, Paracas or Nasca?          4          1       0.166667             True         nasca
+culture          Paracas                                       Peru, South Coast, Paracas (Cavernas) style         37          2       0.166667             True       paracas
+culture          Paracas                                              Peru, South Coast, Paracas or Nasca?         37          1       0.166667             True       paracas
+culture          Paracas                                           Peru, South Coast, Paracas, Late Period         37          3       0.166667             True       paracas
+culture          Chancay                                   Peru, Central Coast, Chancay, 12th-15th century         12         16       0.142857             True       chancay
+culture            Chimú                                      Peru, Chimú or Chimú-Inka, 12th-16th century          2          1       0.142857             True         chimu
+culture            Chimú                                        Peru, North Coast, Chimú style, 1200-1460s          2          1       0.142857             True         chimu
+culture            Chimú                                        Peru, North Coast, Chimú style, 1200–1460s          2          1       0.142857             True         chimu
+culture            Moche                              Central Andes, North Central Coast, Moche-Wari Style          2          1       0.142857             True         moche
+culture             Wari                              Central Andes, North Central Coast, Moche-Wari Style          5          1       0.142857             True          wari
+culture          Chancay                       Peru, Central Coast, Chancay, Pachacamac, 12th-15th century         12          2       0.125000             True       chancay
+culture             Wari                             Central Andes, Middle Horizon, Wari, 6th-11th century          5          3       0.125000             True          wari
+culture          Chancay                       Peru, Central Coast, Chancay-Chimú style, 11th-15th century         12          1       0.111111             True       chancay
+culture             Inca                    Peru, South Coast, Inca Culture, Colonial Period, 16th century         15          1       0.111111             True          inca
+culture         Inca (?)                    Peru, South Coast, Inca Culture, Colonial Period, 16th century          1          1       0.111111             True          inca
+culture      Chuquibamba        Peru, South Highlands or South Coast, Chuquibamba style, 12th-16th century          1          1       0.100000             True   chuquibamba
+culture             Inca                  Peru, South Coast, Ica Valley ?, Inca Culture, 15th-16th century         15          1       0.100000             True          inca
+culture         Inca (?)                  Peru, South Coast, Ica Valley ?, Inca Culture, 15th-16th century          1          1       0.100000             True          inca
+culture             Wari                 Peru, South Coast, Wari Culture, Middle Horizon, 8th-11th Century          5          1       0.100000             True          wari
+culture             Wari                 Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century          5          5       0.100000             True          wari
+culture             Wari South America, Peru, Central Andes, Middle Horizon, Wari people, 7th-11th century          5          1       0.083333             True          wari
+culture Inca and Spanish                                                     Peru, Inca, 15th-16th century          1          1       0.142857            False          inca
+culture       Nasca-Wari                                          Central Andes, South Coast, Nasca people          1          1       0.142857            False         nasca
+culture       Nasca-Wari                                              Peru, South Coast, Nasca-Huari style          1          1       0.142857            False         nasca
+culture       Nasca-Wari                                              Peru, South Coast, Paracas or Nasca?          1          1       0.142857            False         nasca
+culture       Nasca-Wari                              Central Andes, North Central Coast, Moche-Wari Style          1          1       0.125000            False          wari
+
+ARTEFACTOS
+======================================================================================================================
+Inventario: outputs\reports\culture_period_inventory_v1.csv
+Candidatos lexicales: outputs\reports\culture_period_lexical_candidates_v1.csv
+Resumen: outputs\reports\culture_period_inventory_summary_v1.csv
+Plantilla de revisión: config\mappings\culture_period_mapping_v1.csv

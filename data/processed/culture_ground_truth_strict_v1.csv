@@ -1,0 +1,160 @@
+﻿item_id,museum,culture_source,culture_canonical,culture_group_size,relevant_item_count,query_eligible,ground_truth_criterion,ground_truth_version
+CMA:102924,CMA,"Peru, South Coast, Paracas, Late Period",Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104234,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104236,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104238,CMA,"Peru, North Coast, Chimú Culture, 12th-15th century",Chimu,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104240,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104241,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104242,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104243,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104244,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104245,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104246,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104247,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104248,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104249,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:104390,CMA,"Peru, North Coast, Chimú Culture, 12th-15th century",Chimu,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:108026,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:108033,CMA,"Peru, Central Coast, Chancay, Pachacamac, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:108034,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:108038,CMA,"Peru, North Coast, Chimú Culture, 12th-15th century",Chimu,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:108044,CMA,"Peru, Central Coast, Chancay, Pachacamac, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:114131,CMA,"Central Andes, Central Coast, Ychsma (Pachacamac) people",Ychsma,2,1,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:114132,CMA,"Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:119652,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:119676,CMA,"Peru, South Coast, Paracas",Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:119690,CMA,"Peru, South Coast, Paracas, Late Period",Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:119693,CMA,"Central Andes, South Coast, Nasca people",Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:124413,CMA,"Peru, South Coast, Wari Culture, Middle Horizon, 8th-11th Century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:124741,CMA,"Peru, South Coast, Paracas, Late Period",Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:125095,CMA,"Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:126684,CMA,"Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:128454,CMA,"Peru, South Coast, Inca Culture, Colonial Period, 16th century",Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:134395,CMA,"Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:134604,CMA,"Peru, Inca, 15th-16th century",Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:134948,CMA,"Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:137312,CMA,"Peru, South Coast, Paracas",Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:149062,CMA,"Peru, Central Coast, Chancay, 12th-15th century",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:152819,CMA,"Central Andes, North Coast, Chimú people",Chimu,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:155934,CMA,"Peru, North Coast, Lambayeque (Sicán) people",Lambayeque_Sican,1,0,False,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:157111,CMA,"Peru, Recuay",Recuay,3,2,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:157112,CMA,"Peru, Recuay",Recuay,3,2,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:164428,CMA,"Central Andes, Middle Horizon, Wari, 6th-11th century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:164429,CMA,"Central Andes, Middle Horizon, Wari, 6th-11th century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:164430,CMA,"Central Andes, Middle Horizon, Wari, 6th-11th century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:165184,CMA,"South America, Peru, Central Andes, Middle Horizon, Wari people, 7th-11th century",Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:165266,CMA,"Peru, Moche, north coast",Moche,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:165267,CMA,"Peru, Moche, north coast",Moche,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:165268,CMA,"Peru, Moche, north coast",Moche,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:165269,CMA,"Peru, Moche, north coast",Moche,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:292530,CMA,"Central Andes, Central Coast, Ychsma (Pachacamac) people",Ychsma,2,1,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+CMA:302272,CMA,"Central Andes, central coast, Chancay people",Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307449,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307677,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307679,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307682,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307683,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307806,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307841,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307843,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307844,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307846,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307851,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307852,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307853,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307940,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307941,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307943,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307944,MET,Chimú,Chimu,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307950,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307953,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307959,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307960,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307961,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307962,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307963,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307964,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307965,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307966,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307967,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307968,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307972,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:307991,MET,Wari,Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308015,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308016,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308017,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308021,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308022,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308023,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308024,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308025,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308026,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308027,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308028,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308029,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308034,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308035,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308036,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308037,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308039,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308040,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308042,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308044,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308046,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308048,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308053,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308056,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308057,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308058,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308060,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308068,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308070,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308072,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308076,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308077,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308078,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308079,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308098,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308100,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308101,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308105,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308106,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308113,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308120,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308282,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308283,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308284,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308285,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:308290,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:309528,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:310059,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:310511,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:310695,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:310697,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:310698,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:310699,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:312614,MET,Wari,Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:312615,MET,Wari,Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:312669,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:313121,MET,Chancay,Chancay,31,30,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:313152,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:313153,MET,Chimú,Chimu,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:313324,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:314363,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:314528,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:315690,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:315700,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:315708,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:315772,MET,Nasca,Nasca,35,34,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:315786,MET,Moche,Moche,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:316913,MET,Moche,Moche,6,5,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:316939,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:316945,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:317736,MET,Chuquibamba,Chuquibamba,1,0,False,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:318460,MET,Paracas,Paracas,42,41,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:318746,MET,Recuay,Recuay,3,2,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:319524,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:319574,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:675980,MET,Wari,Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:751900,MET,Inca,Inca,17,16,True,same_strict_canonical_culture,culture_ground_truth_strict_v1
+MET:833953,MET,Wari,Wari,15,14,True,same_strict_canonical_culture,culture_ground_truth_strict_v1

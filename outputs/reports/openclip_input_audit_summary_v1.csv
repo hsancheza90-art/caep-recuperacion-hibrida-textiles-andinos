@@ -1,0 +1,4 @@
+﻿museum,records,strict_records,query_eligible_records,local_image_references,existing_local_images,readable_local_images,text_ready_records,multimodal_ready_records,image_evaluation_ready_queries,multimodal_evaluation_ready_queries,audit_version
+CMA,88,50,49,0,0,0,88,0,0,0,openclip_input_audit_v1
+MET,127,109,108,0,0,0,127,0,0,0,openclip_input_audit_v1
+ALL,215,159,157,0,0,0,215,0,0,0,openclip_input_audit_v1

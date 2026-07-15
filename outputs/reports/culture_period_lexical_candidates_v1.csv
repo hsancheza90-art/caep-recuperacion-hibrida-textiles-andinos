@@ -1,0 +1,266 @@
+﻿field,met_source_key,met_source_label,met_count,cma_source_key,cma_source_label,cma_count,token_jaccard,substring_match,common_tokens,candidate_score
+culture,recuay,Recuay,1,"peru, recuay","Peru, Recuay",2,0.5,True,recuay,0.75
+culture,moche,Moche,2,"peru, moche, north coast","Peru, Moche, north coast",4,0.25,True,moche,0.75
+culture,paracas,Paracas,37,"peru, south coast, paracas","Peru, South Coast, Paracas",2,0.25,True,paracas,0.75
+culture,chancay,Chancay,12,"central andes, central coast, chancay people","Central Andes, central coast, Chancay people",1,0.2,True,chancay,0.75
+culture,chimú,Chimú,2,"peru, north coast, chimu-inka","Peru, North Coast, Chimu-Inka",1,0.2,True,chimu,0.75
+culture,inca,Inca,15,"peru, inca, 15th-16th century","Peru, Inca, 15th-16th century",1,0.2,True,inca,0.75
+culture,inca (?),Inca (?),1,"peru, inca, 15th-16th century","Peru, Inca, 15th-16th century",1,0.2,True,inca,0.75
+culture,paracas,Paracas,37,"peru, south coast, paracas, carhua?","Peru, South Coast, Paracas, Carhua?",1,0.2,True,paracas,0.75
+culture,chimú,Chimú,2,"central andes, north coast, chimú people","Central Andes, North Coast, Chimú people",1,0.16666666666666666,True,chimu,0.75
+culture,nasca,Nasca,34,"central andes, south coast, nasca people","Central Andes, South Coast, Nasca people",1,0.16666666666666666,True,nasca,0.75
+culture,nasca,Nasca,34,"peru, south coast, nasca-huari style","Peru, South Coast, Nasca-Huari style",1,0.16666666666666666,True,nasca,0.75
+culture,nasca,Nasca,34,"peru, south coast, paracas or nasca?","Peru, South Coast, Paracas or Nasca?",1,0.16666666666666666,True,nasca,0.75
+culture,nasca (?),Nasca (?),4,"central andes, south coast, nasca people","Central Andes, South Coast, Nasca people",1,0.16666666666666666,True,nasca,0.75
+culture,nasca (?),Nasca (?),4,"peru, south coast, nasca-huari style","Peru, South Coast, Nasca-Huari style",1,0.16666666666666666,True,nasca,0.75
+culture,nasca (?),Nasca (?),4,"peru, south coast, paracas or nasca?","Peru, South Coast, Paracas or Nasca?",1,0.16666666666666666,True,nasca,0.75
+culture,paracas,Paracas,37,"peru, south coast, paracas (cavernas) style","Peru, South Coast, Paracas (Cavernas) style",2,0.16666666666666666,True,paracas,0.75
+culture,paracas,Paracas,37,"peru, south coast, paracas or nasca?","Peru, South Coast, Paracas or Nasca?",1,0.16666666666666666,True,paracas,0.75
+culture,paracas,Paracas,37,"peru, south coast, paracas, late period","Peru, South Coast, Paracas, Late Period",3,0.16666666666666666,True,paracas,0.75
+culture,chancay,Chancay,12,"peru, central coast, chancay, 12th-15th century","Peru, Central Coast, Chancay, 12th-15th century",16,0.14285714285714285,True,chancay,0.75
+culture,chimú,Chimú,2,"peru, chimú or chimú-inka, 12th-16th century","Peru, Chimú or Chimú-Inka, 12th-16th century",1,0.14285714285714285,True,chimu,0.75
+culture,chimú,Chimú,2,"peru, north coast, chimú style, 1200-1460s","Peru, North Coast, Chimú style, 1200-1460s",1,0.14285714285714285,True,chimu,0.75
+culture,chimú,Chimú,2,"peru, north coast, chimú style, 1200–1460s","Peru, North Coast, Chimú style, 1200–1460s",1,0.14285714285714285,True,chimu,0.75
+culture,moche,Moche,2,"central andes, north central coast, moche-wari style","Central Andes, North Central Coast, Moche-Wari Style",1,0.14285714285714285,True,moche,0.75
+culture,wari,Wari,5,"central andes, north central coast, moche-wari style","Central Andes, North Central Coast, Moche-Wari Style",1,0.14285714285714285,True,wari,0.75
+culture,chancay,Chancay,12,"peru, central coast, chancay, pachacamac, 12th-15th century","Peru, Central Coast, Chancay, Pachacamac, 12th-15th century",2,0.125,True,chancay,0.75
+culture,wari,Wari,5,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.125,True,wari,0.75
+culture,chancay,Chancay,12,"peru, central coast, chancay-chimú style, 11th-15th century","Peru, Central Coast, Chancay-Chimú style, 11th-15th century",1,0.1111111111111111,True,chancay,0.75
+culture,inca,Inca,15,"peru, south coast, inca culture, colonial period, 16th century","Peru, South Coast, Inca Culture, Colonial Period, 16th century",1,0.1111111111111111,True,inca,0.75
+culture,inca (?),Inca (?),1,"peru, south coast, inca culture, colonial period, 16th century","Peru, South Coast, Inca Culture, Colonial Period, 16th century",1,0.1111111111111111,True,inca,0.75
+culture,chuquibamba,Chuquibamba,1,"peru, south highlands or south coast, chuquibamba style, 12th-16th century","Peru, South Highlands or South Coast, Chuquibamba style, 12th-16th century",1,0.1,True,chuquibamba,0.75
+culture,inca,Inca,15,"peru, south coast, ica valley ?, inca culture, 15th-16th century","Peru, South Coast, Ica Valley ?, Inca Culture, 15th-16th century",1,0.1,True,inca,0.75
+culture,inca (?),Inca (?),1,"peru, south coast, ica valley ?, inca culture, 15th-16th century","Peru, South Coast, Ica Valley ?, Inca Culture, 15th-16th century",1,0.1,True,inca,0.75
+culture,wari,Wari,5,"peru, south coast, wari culture, middle horizon, 8th-11th century","Peru, South Coast, Wari Culture, Middle Horizon, 8th-11th Century",1,0.1,True,wari,0.75
+culture,wari,Wari,5,"peru, south coast, wari culture, middle horizon, 8th-12th century","Peru, South Coast, Wari Culture, Middle Horizon, 8th-12th Century",5,0.1,True,wari,0.75
+culture,wari,Wari,5,"south america, peru, central andes, middle horizon, wari people, 7th-11th century","South America, Peru, Central Andes, Middle Horizon, Wari people, 7th-11th century",1,0.08333333333333333,True,wari,0.75
+culture,inca and spanish,Inca and Spanish,1,"peru, inca, 15th-16th century","Peru, Inca, 15th-16th century",1,0.14285714285714285,False,inca,0.14285714285714285
+culture,nasca-wari,Nasca-Wari,1,"central andes, south coast, nasca people","Central Andes, South Coast, Nasca people",1,0.14285714285714285,False,nasca,0.14285714285714285
+culture,nasca-wari,Nasca-Wari,1,"peru, south coast, nasca-huari style","Peru, South Coast, Nasca-Huari style",1,0.14285714285714285,False,nasca,0.14285714285714285
+culture,nasca-wari,Nasca-Wari,1,"peru, south coast, paracas or nasca?","Peru, South Coast, Paracas or Nasca?",1,0.14285714285714285,False,nasca,0.14285714285714285
+culture,nasca-wari,Nasca-Wari,1,"central andes, north central coast, moche-wari style","Central Andes, North Central Coast, Moche-Wari Style",1,0.125,False,wari,0.125
+culture,nasca-wari,Nasca-Wari,1,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.1111111111111111,False,wari,0.1111111111111111
+culture,inca and spanish,Inca and Spanish,1,"peru, south coast, inca culture, colonial period, 16th century","Peru, South Coast, Inca Culture, Colonial Period, 16th century",1,0.09090909090909091,False,inca,0.09090909090909091
+culture,inca and spanish,Inca and Spanish,1,"peru, south coast, ica valley ?, inca culture, 15th-16th century","Peru, South Coast, Ica Valley ?, Inca Culture, 15th-16th century",1,0.08333333333333333,False,inca,0.08333333333333333
+culture,chancay,Chancay,12,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,chuquibamba,Chuquibamba,1,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,chuquibamba,Chuquibamba,1,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,chuquibamba,Chuquibamba,1,"central andes, north central coast, moche-wari style","Central Andes, North Central Coast, Moche-Wari Style",1,0.0,False,,0.0
+culture,chuquibamba,Chuquibamba,1,"central andes, north coast, chimú people","Central Andes, North Coast, Chimú people",1,0.0,False,,0.0
+culture,inca,Inca,15,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,inca,Inca,15,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,inca (?),Inca (?),1,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,inca (?),Inca (?),1,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,inca and spanish,Inca and Spanish,1,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,inca and spanish,Inca and Spanish,1,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,moche,Moche,2,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,moche,Moche,2,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,moche,Moche,2,"central andes, north coast, chimú people","Central Andes, North Coast, Chimú people",1,0.0,False,,0.0
+culture,nasca,Nasca,34,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,nasca,Nasca,34,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,nasca (?),Nasca (?),4,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,nasca (?),Nasca (?),4,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,peruvian,Peruvian,11,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,peruvian,Peruvian,11,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,peruvian,Peruvian,11,"central andes, north central coast, moche-wari style","Central Andes, North Central Coast, Moche-Wari Style",1,0.0,False,,0.0
+culture,peruvian,Peruvian,11,"central andes, north coast, chimú people","Central Andes, North Coast, Chimú people",1,0.0,False,,0.0
+culture,peruvian,Peruvian,11,"central andes, northern central coast","Central Andes, Northern Central Coast",1,0.0,False,,0.0
+culture,recuay,Recuay,1,"central andes, central coast, ychsma (pachacamac) people","Central Andes, Central Coast, Ychsma (Pachacamac) people",2,0.0,False,,0.0
+culture,recuay,Recuay,1,"central andes, middle horizon, wari, 6th-11th century","Central Andes, Middle Horizon, Wari, 6th-11th century",3,0.0,False,,0.0
+culture,recuay,Recuay,1,"central andes, north central coast, moche-wari style","Central Andes, North Central Coast, Moche-Wari Style",1,0.0,False,,0.0
+culture,recuay,Recuay,1,"central andes, north coast, chimú people","Central Andes, North Coast, Chimú people",1,0.0,False,,0.0
+period,1100–1400,1100–1400,1,c. 1100–1400,c. 1100–1400,20,1.0,True,1100 | 1400,1.0
+period,1100–1400,1100–1400,1,c.1100–1400 a.d.,c.1100–1400 A.D.,1,1.0,True,1100 | 1400,1.0
+period,15th–16th century,15th–16th century,9,16th century,16th century,1,0.6666666666666666,True,16th | century,0.75
+period,650-850 ce,650-850 CE,1,650–850,650–850,1,0.6666666666666666,True,650 | 850,0.75
+period,14th–early 16th century,14th–early 16th century,5,16th century,16th century,1,0.5,True,16th | century,0.75
+period,15th–early 16th century,15th–early 16th century,1,16th century,16th century,1,0.5,True,16th | century,0.75
+period,200–700 ce,200–700 CE,1,200 bce–1 ce,200 BCE–1 CE,2,0.5,False,200 | ce,0.5
+period,200–700 ce,200–700 CE,1,200 bce–200 ce,200 BCE–200 CE,1,0.5,False,200 | ce,0.5
+period,650-850 ce,650-850 CE,1,c. 50–650 ce,c. 50–650 CE,4,0.5,False,650 | ce,0.5
+period,650–1000 ce,650–1000 CE,2,c. 50–650 ce,c. 50–650 CE,4,0.5,False,650 | ce,0.5
+period,late 16th–17th century,late 16th–17th century,1,16th century,16th century,1,0.5,False,16th | century,0.5
+period,200–700 ce,200–700 CE,1,400 bce–700 ce,400 BCE–700 CE,2,0.4,False,700 | ce,0.4
+period,200–700 ce,200–700 CE,1,c. 300 bce–200 ce,c. 300 BCE–200 CE,2,0.4,False,200 | ce,0.4
+period,1100–1400,1100–1400,1,1100–1532,1100–1532,1,0.3333333333333333,False,1100,0.3333333333333333
+period,1100–1400,1100–1400,1,1200–1400,1200–1400,2,0.3333333333333333,False,1400,0.3333333333333333
+period,1100–1400,1100–1400,1,1400–1532,1400–1532,2,0.3333333333333333,False,1400,0.3333333333333333
+period,1400–1530,1400–1530,1,1200–1400,1200–1400,2,0.3333333333333333,False,1400,0.3333333333333333
+period,1400–1530,1400–1530,1,1400–1532,1400–1532,2,0.3333333333333333,False,1400,0.3333333333333333
+period,1400–1530,1400–1530,1,c. 1100–1400,c. 1100–1400,20,0.3333333333333333,False,1400,0.3333333333333333
+period,1400–1530,1400–1530,1,c. 1400–1532,c. 1400–1532,1,0.3333333333333333,False,1400,0.3333333333333333
+period,1400–1530,1400–1530,1,c. 1400–1540,c. 1400–1540,1,0.3333333333333333,False,1400,0.3333333333333333
+period,1460–1540,1460–1540,2,c. 1400–1540,c. 1400–1540,1,0.3333333333333333,False,1540,0.3333333333333333
+period,19th century,19th century,1,16th century,16th century,1,0.3333333333333333,False,century,0.3333333333333333
+period,1st century bce–2nd century ce,1st century BCE–2nd century CE,1,200 bce–1 ce,200 BCE–1 CE,2,0.3333333333333333,False,bce | ce,0.3333333333333333
+period,1st century bce–2nd century ce,1st century BCE–2nd century CE,1,200 bce–200 ce,200 BCE–200 CE,1,0.3333333333333333,False,bce | ce,0.3333333333333333
+period,3rd century bce–1st century ce,3rd century BCE–1st century CE,1,200 bce–1 ce,200 BCE–1 CE,2,0.3333333333333333,False,bce | ce,0.3333333333333333
+period,3rd century bce–1st century ce,3rd century BCE–1st century CE,1,200 bce–200 ce,200 BCE–200 CE,1,0.3333333333333333,False,bce | ce,0.3333333333333333
+period,7th century,7th century,29,16th century,16th century,1,0.3333333333333333,False,century,0.3333333333333333
+period,1st century bce–2nd century ce,1st century BCE–2nd century CE,1,400 bce–700 ce,400 BCE–700 CE,2,0.2857142857142857,False,bce | ce,0.2857142857142857
+period,1st century bce–2nd century ce,1st century BCE–2nd century CE,1,c. 300 bce–200 ce,c. 300 BCE–200 CE,2,0.2857142857142857,False,bce | ce,0.2857142857142857
+period,3rd century bce–1st century ce,3rd century BCE–1st century CE,1,400 bce–700 ce,400 BCE–700 CE,2,0.2857142857142857,False,bce | ce,0.2857142857142857
+period,3rd century bce–1st century ce,3rd century BCE–1st century CE,1,c. 300 bce–200 ce,c. 300 BCE–200 CE,2,0.2857142857142857,False,bce | ce,0.2857142857142857
+period,10th–14th century,10th–14th century,2,16th century,16th century,1,0.25,False,century,0.25
+period,10th–15th century,10th–15th century,3,16th century,16th century,1,0.25,False,century,0.25
+period,12th–14th century,12th–14th century,5,16th century,16th century,1,0.25,False,century,0.25
+period,12th–15th century,12th–15th century,3,16th century,16th century,1,0.25,False,century,0.25
+period,17th–18th century,17th–18th century,1,16th century,16th century,1,0.25,False,century,0.25
+period,200–700 ce,200–700 CE,1,200–1 bce,200–1 BCE,6,0.25,False,200,0.25
+period,2nd century bce,2nd century BCE,1,16th century,16th century,1,0.25,False,century,0.25
+period,2nd century bce,2nd century BCE,1,200–1 bce,200–1 BCE,6,0.25,False,bce,0.25
+period,2nd century bce,2nd century BCE,1,700–1 bce,700–1 BCE,1,0.25,False,bce,0.25
+period,2nd–7th century,2nd–7th century,3,16th century,16th century,1,0.25,False,century,0.25
+period,450–175 bce,450–175 BCE,1,200–1 bce,200–1 BCE,6,0.25,False,bce,0.25
+period,450–175 bce,450–175 BCE,1,700–1 bce,700–1 BCE,1,0.25,False,bce,0.25
+period,500–850 ce,500–850 CE,1,650–850,650–850,1,0.25,False,850,0.25
+period,500–850 ce,500–850 CE,1,c. 500–1000,c. 500–1000,2,0.25,False,500,0.25
+period,650–1000 ce,650–1000 CE,2,1000–1460s,1000–1460s,2,0.25,False,1000,0.25
+period,650–1000 ce,650–1000 CE,2,1000–1532,1000–1532,1,0.25,False,1000,0.25
+period,650–1000 ce,650–1000 CE,2,600–1000,600–1000,2,0.25,False,1000,0.25
+period,650–1000 ce,650–1000 CE,2,650–850,650–850,1,0.25,False,650,0.25
+period,6th–8th century,6th–8th century,1,16th century,16th century,1,0.25,False,century,0.25
+period,7th–10th century,7th–10th century,3,16th century,16th century,1,0.25,False,century,0.25
+period,7th–9th century,7th–9th century,4,16th century,16th century,1,0.25,False,century,0.25
+period,800–850 ce,800–850 CE,1,650–850,650–850,1,0.25,False,850,0.25
+period,800–850 ce,800–850 CE,1,800–1100,800–1100,1,0.25,False,800,0.25
+period,800–850 ce,800–850 CE,1,800–1200?,800–1200?,1,0.25,False,800,0.25
+period,8th–9th century,8th–9th century,2,16th century,16th century,1,0.25,False,century,0.25
+period,15th–early 17th century,15th–early 17th century,1,16th century,16th century,1,0.2,False,century,0.2
+period,2nd century bce,2nd century BCE,1,200 bce–1 ce,200 BCE–1 CE,2,0.2,False,bce,0.2
+period,2nd century bce,2nd century BCE,1,200 bce–200 ce,200 BCE–200 CE,1,0.2,False,bce,0.2
+period,3rd–2nd century bce,3rd–2nd century BCE,9,16th century,16th century,1,0.2,False,century,0.2
+period,3rd–2nd century bce,3rd–2nd century BCE,9,200–1 bce,200–1 BCE,6,0.2,False,bce,0.2
+period,3rd–2nd century bce,3rd–2nd century BCE,9,700–1 bce,700–1 BCE,1,0.2,False,bce,0.2
+period,450–175 bce,450–175 BCE,1,200 bce–1 ce,200 BCE–1 CE,2,0.2,False,bce,0.2
+period,450–175 bce,450–175 BCE,1,200 bce–200 ce,200 BCE–200 CE,1,0.2,False,bce,0.2
+period,450–175 bce,450–175 BCE,1,300–100 bce,300–100 BCE,1,0.2,False,bce,0.2
+period,4th–2nd century bce,4th–2nd century BCE,1,16th century,16th century,1,0.2,False,century,0.2
+period,4th–2nd century bce,4th–2nd century BCE,1,200–1 bce,200–1 BCE,6,0.2,False,bce,0.2
+period,4th–2nd century bce,4th–2nd century BCE,1,700–1 bce,700–1 BCE,1,0.2,False,bce,0.2
+period,4th–3rd century bce,4th–3rd century BCE,2,16th century,16th century,1,0.2,False,century,0.2
+period,4th–3rd century bce,4th–3rd century BCE,2,200–1 bce,200–1 BCE,6,0.2,False,bce,0.2
+period,4th–3rd century bce,4th–3rd century BCE,2,700–1 bce,700–1 BCE,1,0.2,False,bce,0.2
+period,500–850 ce,500–850 CE,1,200 bce–1 ce,200 BCE–1 CE,2,0.2,False,ce,0.2
+period,500–850 ce,500–850 CE,1,200 bce–200 ce,200 BCE–200 CE,1,0.2,False,ce,0.2
+period,500–850 ce,500–850 CE,1,500–200 bce,500–200 BCE,1,0.2,False,500,0.2
+period,5th–2nd century bce,5th–2nd century BCE,18,16th century,16th century,1,0.2,False,century,0.2
+period,5th–2nd century bce,5th–2nd century BCE,18,200–1 bce,200–1 BCE,6,0.2,False,bce,0.2
+period,5th–2nd century bce,5th–2nd century BCE,18,700–1 bce,700–1 BCE,1,0.2,False,bce,0.2
+period,5th–3rd century bce,5th–3rd century BCE,2,16th century,16th century,1,0.2,False,century,0.2
+period,5th–3rd century bce,5th–3rd century BCE,2,200–1 bce,200–1 BCE,6,0.2,False,bce,0.2
+period,5th–3rd century bce,5th–3rd century BCE,2,700–1 bce,700–1 BCE,1,0.2,False,bce,0.2
+period,5th–4th century bce,5th–4th century BCE,2,16th century,16th century,1,0.2,False,century,0.2
+period,5th–4th century bce,5th–4th century BCE,2,200–1 bce,200–1 BCE,6,0.2,False,bce,0.2
+period,5th–4th century bce,5th–4th century BCE,2,700–1 bce,700–1 BCE,1,0.2,False,bce,0.2
+period,650-850 ce,650-850 CE,1,200 bce–1 ce,200 BCE–1 CE,2,0.2,False,ce,0.2
+period,650-850 ce,650-850 CE,1,200 bce–200 ce,200 BCE–200 CE,1,0.2,False,ce,0.2
+period,650-850 ce,650-850 CE,1,c. 650–100 bce,c. 650–100 BCE,1,0.2,False,650,0.2
+period,6th–5th century bce,6th–5th century BCE,1,16th century,16th century,1,0.2,False,century,0.2
+period,6th–5th century bce,6th–5th century BCE,1,200–1 bce,200–1 BCE,6,0.2,False,bce,0.2
+period,6th–5th century bce,6th–5th century BCE,1,700–1 bce,700–1 BCE,1,0.2,False,bce,0.2
+period,800–850 ce,800–850 CE,1,200 bce–1 ce,200 BCE–1 CE,2,0.2,False,ce,0.2
+period,800–850 ce,800–850 CE,1,200 bce–200 ce,200 BCE–200 CE,1,0.2,False,ce,0.2
+period,1st century bce–2nd century ce,1st century BCE–2nd century CE,1,"170 bce–70 ce (radiocarbon date, 95% probability)","170 BCE–70 CE (radiocarbon date, 95% probability)",2,0.18181818181818182,False,bce | ce,0.18181818181818182
+period,3rd century bce–1st century ce,3rd century BCE–1st century CE,1,"170 bce–70 ce (radiocarbon date, 95% probability)","170 BCE–70 CE (radiocarbon date, 95% probability)",2,0.18181818181818182,False,bce | ce,0.18181818181818182
+period,3rd–2nd century bce,3rd–2nd century BCE,9,200 bce–1 ce,200 BCE–1 CE,2,0.16666666666666666,False,bce,0.16666666666666666
+period,3rd–2nd century bce,3rd–2nd century BCE,9,200 bce–200 ce,200 BCE–200 CE,1,0.16666666666666666,False,bce,0.16666666666666666
+period,4th–2nd century bce,4th–2nd century BCE,1,200 bce–1 ce,200 BCE–1 CE,2,0.16666666666666666,False,bce,0.16666666666666666
+period,4th–2nd century bce,4th–2nd century BCE,1,200 bce–200 ce,200 BCE–200 CE,1,0.16666666666666666,False,bce,0.16666666666666666
+period,4th–3rd century bce,4th–3rd century BCE,2,200 bce–1 ce,200 BCE–1 CE,2,0.16666666666666666,False,bce,0.16666666666666666
+period,4th–3rd century bce,4th–3rd century BCE,2,200 bce–200 ce,200 BCE–200 CE,1,0.16666666666666666,False,bce,0.16666666666666666
+period,5th–2nd century bce,5th–2nd century BCE,18,200 bce–1 ce,200 BCE–1 CE,2,0.16666666666666666,False,bce,0.16666666666666666
+period,5th–2nd century bce,5th–2nd century BCE,18,200 bce–200 ce,200 BCE–200 CE,1,0.16666666666666666,False,bce,0.16666666666666666
+period,5th–3rd century bce,5th–3rd century BCE,2,200 bce–1 ce,200 BCE–1 CE,2,0.16666666666666666,False,bce,0.16666666666666666
+period,5th–3rd century bce,5th–3rd century BCE,2,200 bce–200 ce,200 BCE–200 CE,1,0.16666666666666666,False,bce,0.16666666666666666
+period,5th–4th century bce,5th–4th century BCE,2,200 bce–1 ce,200 BCE–1 CE,2,0.16666666666666666,False,bce,0.16666666666666666
+period,5th–4th century bce,5th–4th century BCE,2,200 bce–200 ce,200 BCE–200 CE,1,0.16666666666666666,False,bce,0.16666666666666666
+period,6th–5th century bce,6th–5th century BCE,1,200 bce–1 ce,200 BCE–1 CE,2,0.16666666666666666,False,bce,0.16666666666666666
+period,6th–5th century bce,6th–5th century BCE,1,200 bce–200 ce,200 BCE–200 CE,1,0.16666666666666666,False,bce,0.16666666666666666
+period,1460–1540,1460–1540,2,"1460–1632 (radiocarbon date, 95% probability)","1460–1632 (radiocarbon date, 95% probability)",1,0.14285714285714285,False,1460,0.14285714285714285
+period,1460–1626,1460–1626,1,"1460–1632 (radiocarbon date, 95% probability)","1460–1632 (radiocarbon date, 95% probability)",1,0.14285714285714285,False,1460,0.14285714285714285
+period,10th–14th century,10th–14th century,2,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,10th–14th century,10th–14th century,2,1000–1532,1000–1532,1,0.0,False,,0.0
+period,10th–14th century,10th–14th century,2,1100–1532,1100–1532,1,0.0,False,,0.0
+period,10th–14th century,10th–14th century,2,1200–1400,1200–1400,2,0.0,False,,0.0
+period,10th–15th century,10th–15th century,3,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,10th–15th century,10th–15th century,3,1000–1532,1000–1532,1,0.0,False,,0.0
+period,10th–15th century,10th–15th century,3,1100–1532,1100–1532,1,0.0,False,,0.0
+period,10th–15th century,10th–15th century,3,1200–1400,1200–1400,2,0.0,False,,0.0
+period,12th–14th century,12th–14th century,5,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,12th–14th century,12th–14th century,5,1000–1532,1000–1532,1,0.0,False,,0.0
+period,12th–14th century,12th–14th century,5,1100–1532,1100–1532,1,0.0,False,,0.0
+period,12th–14th century,12th–14th century,5,1200–1400,1200–1400,2,0.0,False,,0.0
+period,12th–15th century,12th–15th century,3,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,12th–15th century,12th–15th century,3,1000–1532,1000–1532,1,0.0,False,,0.0
+period,12th–15th century,12th–15th century,3,1100–1532,1100–1532,1,0.0,False,,0.0
+period,12th–15th century,12th–15th century,3,1200–1400,1200–1400,2,0.0,False,,0.0
+period,1450–1550,1450–1550,2,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,1450–1550,1450–1550,2,1000–1532,1000–1532,1,0.0,False,,0.0
+period,1450–1550,1450–1550,2,1100–1532,1100–1532,1,0.0,False,,0.0
+period,1450–1550,1450–1550,2,1200–1400,1200–1400,2,0.0,False,,0.0
+period,1450–1550,1450–1550,2,1400–1532,1400–1532,2,0.0,False,,0.0
+period,1460–1540,1460–1540,2,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,1460–1540,1460–1540,2,1000–1532,1000–1532,1,0.0,False,,0.0
+period,1460–1540,1460–1540,2,1100–1532,1100–1532,1,0.0,False,,0.0
+period,1460–1626,1460–1626,1,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,1460–1626,1460–1626,1,1000–1532,1000–1532,1,0.0,False,,0.0
+period,1460–1626,1460–1626,1,1100–1532,1100–1532,1,0.0,False,,0.0
+period,1460–1626,1460–1626,1,1200–1400,1200–1400,2,0.0,False,,0.0
+period,14th–early 16th century,14th–early 16th century,5,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,14th–early 16th century,14th–early 16th century,5,1000–1532,1000–1532,1,0.0,False,,0.0
+period,14th–early 16th century,14th–early 16th century,5,1100–1532,1100–1532,1,0.0,False,,0.0
+period,14th–early 16th century,14th–early 16th century,5,1200–1400,1200–1400,2,0.0,False,,0.0
+period,15th–16th century,15th–16th century,9,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,15th–16th century,15th–16th century,9,1000–1532,1000–1532,1,0.0,False,,0.0
+period,15th–16th century,15th–16th century,9,1100–1532,1100–1532,1,0.0,False,,0.0
+period,15th–16th century,15th–16th century,9,1200–1400,1200–1400,2,0.0,False,,0.0
+period,15th–early 16th century,15th–early 16th century,1,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,15th–early 16th century,15th–early 16th century,1,1000–1532,1000–1532,1,0.0,False,,0.0
+period,15th–early 16th century,15th–early 16th century,1,1100–1532,1100–1532,1,0.0,False,,0.0
+period,15th–early 16th century,15th–early 16th century,1,1200–1400,1200–1400,2,0.0,False,,0.0
+period,15th–early 17th century,15th–early 17th century,1,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,15th–early 17th century,15th–early 17th century,1,1000–1532,1000–1532,1,0.0,False,,0.0
+period,15th–early 17th century,15th–early 17th century,1,1100–1532,1100–1532,1,0.0,False,,0.0
+period,15th–early 17th century,15th–early 17th century,1,1200–1400,1200–1400,2,0.0,False,,0.0
+period,1600–1700,1600–1700,1,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,1600–1700,1600–1700,1,1000–1532,1000–1532,1,0.0,False,,0.0
+period,1600–1700,1600–1700,1,1100–1532,1100–1532,1,0.0,False,,0.0
+period,1600–1700,1600–1700,1,1200–1400,1200–1400,2,0.0,False,,0.0
+period,1600–1700,1600–1700,1,1400–1532,1400–1532,2,0.0,False,,0.0
+period,17th–18th century,17th–18th century,1,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,17th–18th century,17th–18th century,1,1000–1532,1000–1532,1,0.0,False,,0.0
+period,17th–18th century,17th–18th century,1,1100–1532,1100–1532,1,0.0,False,,0.0
+period,17th–18th century,17th–18th century,1,1200–1400,1200–1400,2,0.0,False,,0.0
+period,19th century,19th century,1,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,19th century,19th century,1,1000–1532,1000–1532,1,0.0,False,,0.0
+period,19th century,19th century,1,1100–1532,1100–1532,1,0.0,False,,0.0
+period,19th century,19th century,1,1200–1400,1200–1400,2,0.0,False,,0.0
+period,2nd–7th century,2nd–7th century,3,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,2nd–7th century,2nd–7th century,3,1000–1532,1000–1532,1,0.0,False,,0.0
+period,2nd–7th century,2nd–7th century,3,1100–1532,1100–1532,1,0.0,False,,0.0
+period,2nd–7th century,2nd–7th century,3,1200–1400,1200–1400,2,0.0,False,,0.0
+period,6th–8th century,6th–8th century,1,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,6th–8th century,6th–8th century,1,1000–1532,1000–1532,1,0.0,False,,0.0
+period,6th–8th century,6th–8th century,1,1100–1532,1100–1532,1,0.0,False,,0.0
+period,6th–8th century,6th–8th century,1,1200–1400,1200–1400,2,0.0,False,,0.0
+period,7th century,7th century,29,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,7th century,7th century,29,1000–1532,1000–1532,1,0.0,False,,0.0
+period,7th century,7th century,29,1100–1532,1100–1532,1,0.0,False,,0.0
+period,7th century,7th century,29,1200–1400,1200–1400,2,0.0,False,,0.0
+period,7th–10th century,7th–10th century,3,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,7th–10th century,7th–10th century,3,1000–1532,1000–1532,1,0.0,False,,0.0
+period,7th–10th century,7th–10th century,3,1100–1532,1100–1532,1,0.0,False,,0.0
+period,7th–10th century,7th–10th century,3,1200–1400,1200–1400,2,0.0,False,,0.0
+period,7th–9th century,7th–9th century,4,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,7th–9th century,7th–9th century,4,1000–1532,1000–1532,1,0.0,False,,0.0
+period,7th–9th century,7th–9th century,4,1100–1532,1100–1532,1,0.0,False,,0.0
+period,7th–9th century,7th–9th century,4,1200–1400,1200–1400,2,0.0,False,,0.0
+period,8th–9th century,8th–9th century,2,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,8th–9th century,8th–9th century,2,1000–1532,1000–1532,1,0.0,False,,0.0
+period,8th–9th century,8th–9th century,2,1100–1532,1100–1532,1,0.0,False,,0.0
+period,8th–9th century,8th–9th century,2,1200–1400,1200–1400,2,0.0,False,,0.0
+period,late 16th–17th century,late 16th–17th century,1,1000–1460s,1000–1460s,2,0.0,False,,0.0
+period,late 16th–17th century,late 16th–17th century,1,1000–1532,1000–1532,1,0.0,False,,0.0
+period,late 16th–17th century,late 16th–17th century,1,1100–1532,1100–1532,1,0.0,False,,0.0
+period,late 16th–17th century,late 16th–17th century,1,1200–1400,1200–1400,2,0.0,False,,0.0

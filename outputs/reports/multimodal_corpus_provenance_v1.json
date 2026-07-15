@@ -1,0 +1,45 @@
+{
+  "coverage": {
+    "coverage_rate": 1.0,
+    "cultural_records": 215,
+    "manifest_records": 215,
+    "matched_records": 215
+  },
+  "dataset_name": "paper_corpus_multimodal_v1",
+  "inputs": {
+    "cultural_corpus": {
+      "path": "data/processed/paper_corpus_culture_enriched_v1.csv",
+      "sha256": "16f151deae779d5f85880ddea3175b6501afd84ef07f621ba7a878ea56b131a0",
+      "size_bytes": 234466
+    },
+    "image_manifest": {
+      "path": "outputs/reports/image_download_manifest_v1.csv",
+      "sha256": "07f1bb482c7ed725d230d025453295d07d27967d91dbe26d19647de1612d45d1",
+      "size_bytes": 71737
+    }
+  },
+  "join": {
+    "cardinality": "one_to_one",
+    "coverage_required": true,
+    "key": "item_id",
+    "type": "left"
+  },
+  "outputs": {
+    "csv": {
+      "path": "data/derived/paper_corpus_multimodal_v1.csv",
+      "sha256": "874b6571f365fc5f23b5a2e5ab676e4e6b40f18658a8531c2d638dd64f9b5501",
+      "size_bytes": 283434
+    },
+    "parquet": {
+      "path": "data/derived/paper_corpus_multimodal_v1.parquet",
+      "sha256": "920194f83776344d9f2bf9ae58f1a086135580d86bcc41f4c92d1ae17a4de01d",
+      "size_bytes": 96006
+    },
+    "summary": {
+      "path": "outputs/reports/multimodal_corpus_summary_v1.csv",
+      "sha256": "122c076769a6e0ae67ac0a7a3bc46f91e96358690229c87912d6b76e2e021844",
+      "size_bytes": 212
+    }
+  },
+  "pipeline_version": "multimodal_corpus_materialization_v1"
+}

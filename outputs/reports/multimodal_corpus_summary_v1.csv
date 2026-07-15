@@ -1,0 +1,4 @@
+museum,total_records,records_with_image,records_without_image,image_coverage_rate,unique_image_hashes,total_image_bytes
+ALL,215,215,0,1.0,215,233973338
+CMA,88,88,0,1.0,88,36342713
+MET,127,127,0,1.0,127,197630625

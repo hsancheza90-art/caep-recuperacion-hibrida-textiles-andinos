@@ -1,0 +1,2 @@
+﻿ranking_method,generator_seed,reference_version,evaluation_scope,query_count,mrr,precision_at_1,recall_at_1,ndcg_at_1,precision_at_5,recall_at_5,ndcg_at_5,precision_at_10,recall_at_10,ndcg_at_10
+oracle_culture,-1,reference_rankings_v1,strict_culture_universe,157,1.0,1.0,0.07083480199598871,1.0,0.9783439490445861,0.27455617558503903,1.0,0.9350318471337581,0.44083209639300813,1.0

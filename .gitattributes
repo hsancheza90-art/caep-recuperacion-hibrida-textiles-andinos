@@ -1,0 +1,17 @@
+# Normalización de archivos de texto
+* text=auto
+
+*.py text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+
+# Formatos binarios
+*.parquet binary
+*.jpg binary
+*.jpeg binary
+*.png binary
