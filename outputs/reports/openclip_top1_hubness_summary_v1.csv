@@ -1,0 +1,4 @@
+configuration,total_queries,total_candidates,unique_top1_candidates,top1_candidate_coverage,mean_top1_count,max_top1_count,max_top1_share,gini_top1_counts,normalized_top1_entropy,top1_hhi,total_hubs,queries_captured_by_hubs,hub_query_share,false_top1_events
+text_visual,215,215,43,0.2,1,54,0.251162790698,0.920843699297,0.562321493699,0.091400757166,18,184,0.855813953488,212
+text_metadata,215,215,45,0.209302325581,1,41,0.190697674419,0.908555976203,0.596841564318,0.0671281773932,21,183,0.851162790698,212
+text_fused_alpha_0.50,215,215,40,0.186046511628,1,71,0.33023255814,0.931227690644,0.5213224036,0.13345592212,18,187,0.86976744186,212

@@ -1,0 +1,4 @@
+configuration,total_queries,persistent_hub_candidates,active_persistent_hubs,top1_events_to_persistent_hubs,false_top1_events_to_persistent_hubs,cross_museum_events,persistent_hub_capture_share,persistent_hub_false_top1_share
+text_fused_alpha_0.50,215,16,16,178,177,79,0.827906976744,0.823255813953
+text_metadata,215,16,13,95,95,50,0.441860465116,0.441860465116
+text_visual,215,16,15,166,165,86,0.772093023256,0.767441860465

@@ -1,0 +1,4 @@
+modality,total_records,embedding_dimension,dtype,finite_values,normalized_l2,mean_l2_norm,min_l2_norm,max_l2_norm
+image,215,512,float32,True,True,1.0,0.9999998807907104,1.0000001192092896
+text_visual,215,512,float32,True,True,1.0,0.9999998211860657,1.0000001192092896
+text_metadata,215,512,float32,True,True,1.0,0.9999998807907104,1.0000001192092896

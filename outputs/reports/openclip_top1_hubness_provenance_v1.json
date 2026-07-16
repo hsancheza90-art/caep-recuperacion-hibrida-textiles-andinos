@@ -1,0 +1,51 @@
+{
+  "configuration": {
+    "configurations": [
+      "text_visual",
+      "text_metadata",
+      "text_fused_alpha_0.50"
+    ],
+    "hub_definition": "top1_count_greater_or_equal_to_threshold",
+    "hub_min_count": 3,
+    "persistent_min_configurations": 2,
+    "ranking_position": 1
+  },
+  "coverage": {
+    "candidate_count_rows": 645,
+    "input_rows": 645,
+    "museum_flow_rows": 12,
+    "persistent_hub_rows": 16,
+    "summary_rows": 3
+  },
+  "dataset_name": "openclip_top1_hubness_v1",
+  "input": {
+    "per_query": {
+      "path": "outputs/reports/openclip_retrieval_per_query_v1.csv",
+      "sha256": "6064b38e501c2b1faa706f6bab9dae178aade3e7b149602ef4fe05415fb44a8a",
+      "size_bytes": 70167
+    }
+  },
+  "outputs": {
+    "candidate_counts": {
+      "path": "outputs/reports/openclip_top1_candidate_counts_v1.csv",
+      "sha256": "a627fb6460ad41caae11bf16861242073d3666bcc42cef7ba9b3cc32b29b5d2f",
+      "size_bytes": 33176
+    },
+    "museum_flow": {
+      "path": "outputs/reports/openclip_top1_museum_flow_v1.csv",
+      "sha256": "1b40ef473399bcb3d1ff662d9ae5e59e776db19b642df85c50bc8a3166fd71e0",
+      "size_bytes": 557
+    },
+    "persistent_hubs": {
+      "path": "outputs/reports/openclip_top1_persistent_hubs_v1.csv",
+      "sha256": "cadb749fa05f05d94c42da97bd3b853d120a6a7d00b0427cb6826c57cc16e0cb",
+      "size_bytes": 1195
+    },
+    "summary": {
+      "path": "outputs/reports/openclip_top1_hubness_summary_v1.csv",
+      "sha256": "1a460ba14d220bc1257290e5573fdf136848d8e490980a8036ef9b19ed0539a1",
+      "size_bytes": 642
+    }
+  },
+  "pipeline_version": "openclip_top1_hubness_v1"
+}

@@ -1,0 +1,61 @@
+{
+  "configuration": {
+    "alphas": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "candidate_modality": "image",
+    "cutoffs": [
+      1,
+      5,
+      10
+    ],
+    "paired_candidate_included": true,
+    "query_modalities": [
+      "text_visual",
+      "text_metadata",
+      "text_fused"
+    ],
+    "selected_alpha": 0.5
+  },
+  "coverage": {
+    "embedding_dimension": 512,
+    "per_query_rows": 645,
+    "summary_rows": 22,
+    "total_records": 215
+  },
+  "dataset_name": "openclip_retrieval_evaluation_v1",
+  "input": {
+    "embeddings": {
+      "path": "data/derived/openclip_embeddings_v1.npz",
+      "sha256": "f306bfa1b51e7a429b7aad54609a76fb0c1ee1f0cc5816d51699ecef76a19fee",
+      "size_bytes": 1333376
+    }
+  },
+  "outputs": {
+    "alpha_grid": {
+      "path": "outputs/reports/openclip_alpha_grid_v1.csv",
+      "sha256": "17d39ba57bf10779ddb979f3127cb599bc8243d45c2e930107bfa02128f17b2a",
+      "size_bytes": 2314
+    },
+    "comparison_vs_random": {
+      "path": "outputs/reports/openclip_comparison_vs_random_v1.csv",
+      "sha256": "af94cb5786cd871ea810bb18a348d607ce86bfa1274b9dfccc76fe462229d988",
+      "size_bytes": 706
+    },
+    "per_query": {
+      "path": "outputs/reports/openclip_retrieval_per_query_v1.csv",
+      "sha256": "6064b38e501c2b1faa706f6bab9dae178aade3e7b149602ef4fe05415fb44a8a",
+      "size_bytes": 70167
+    },
+    "summary": {
+      "path": "outputs/reports/openclip_retrieval_summary_v1.csv",
+      "sha256": "6005e8bc2ca0dcf40019795541b48250f8062fd2f70d3a78c85373b6cb17c4db",
+      "size_bytes": 3217
+    }
+  },
+  "pipeline_version": "openclip_retrieval_evaluation_v1"
+}

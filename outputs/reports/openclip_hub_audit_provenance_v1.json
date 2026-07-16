@@ -1,0 +1,70 @@
+{
+  "configuration": {
+    "event_definition": "query_whose_top1_candidate_is_a_persistent_hub",
+    "hub_scope": "persistent_top1_hubs",
+    "same_culture_definition": "nonempty_equal_culture_canonical",
+    "same_object_type_definition": "nonempty_equal_object_type"
+  },
+  "coverage": {
+    "attraction_event_rows": 439,
+    "available_hub_images": 16,
+    "corpus_records": 215,
+    "hub_configuration_rows": 48,
+    "hub_profile_rows": 16,
+    "per_query_records": 645,
+    "persistent_hub_records": 16,
+    "summary_rows": 3,
+    "text_records": 215
+  },
+  "dataset_name": "openclip_hub_audit_v1",
+  "inputs": {
+    "candidate_counts": {
+      "path": "outputs/reports/openclip_top1_candidate_counts_v1.csv",
+      "sha256": "a627fb6460ad41caae11bf16861242073d3666bcc42cef7ba9b3cc32b29b5d2f",
+      "size_bytes": 33176
+    },
+    "corpus": {
+      "path": "data/derived/paper_corpus_multimodal_v1.csv",
+      "sha256": "874b6571f365fc5f23b5a2e5ab676e4e6b40f18658a8531c2d638dd64f9b5501",
+      "size_bytes": 283434
+    },
+    "per_query": {
+      "path": "outputs/reports/openclip_retrieval_per_query_v1.csv",
+      "sha256": "6064b38e501c2b1faa706f6bab9dae178aade3e7b149602ef4fe05415fb44a8a",
+      "size_bytes": 70167
+    },
+    "persistent_hubs": {
+      "path": "outputs/reports/openclip_top1_persistent_hubs_v1.csv",
+      "sha256": "cadb749fa05f05d94c42da97bd3b853d120a6a7d00b0427cb6826c57cc16e0cb",
+      "size_bytes": 1195
+    },
+    "text_inputs": {
+      "path": "data/derived/openclip_text_inputs_v1.csv",
+      "sha256": "9e74446194e3d1b08c327b487ff5cdf50c3196486a211f70b15d4a34e6c19925",
+      "size_bytes": 143739
+    }
+  },
+  "outputs": {
+    "attraction_events": {
+      "path": "outputs/reports/openclip_hub_audit_attraction_events_v1.csv",
+      "sha256": "58bb0ce3b712d1fa8afdb5ec3a022fc22854af00cb99eeb879a0d9a3f3972571",
+      "size_bytes": 119697
+    },
+    "hub_configuration_counts": {
+      "path": "outputs/reports/openclip_hub_audit_configuration_counts_v1.csv",
+      "sha256": "2cb426c325ceadb8018cece63859f6152e083ce17219952bab8894c43c737166",
+      "size_bytes": 4352
+    },
+    "hub_profiles": {
+      "path": "outputs/reports/openclip_hub_audit_profiles_v1.csv",
+      "sha256": "6c1f55e11431daca11c4485b3b4e6ebae315c2b06e7973b5755b6a7ce6ab8c5f",
+      "size_bytes": 20612
+    },
+    "summary": {
+      "path": "outputs/reports/openclip_hub_audit_summary_v1.csv",
+      "sha256": "17cf5ecec42cf8df781641dbcba779601ca53542167669f6b54bf6b4177fd36a",
+      "size_bytes": 425
+    }
+  },
+  "pipeline_version": "openclip_hub_audit_v1"
+}

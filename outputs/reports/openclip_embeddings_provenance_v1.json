@@ -1,0 +1,47 @@
+{
+  "coverage": {
+    "corpus_records": 215,
+    "output_records": 215,
+    "text_records": 215
+  },
+  "dataset_name": "openclip_embeddings_v1",
+  "inputs": {
+    "corpus": {
+      "path": "data/derived/paper_corpus_multimodal_v1.csv",
+      "sha256": "874b6571f365fc5f23b5a2e5ab676e4e6b40f18658a8531c2d638dd64f9b5501",
+      "size_bytes": 283434
+    },
+    "text_inputs": {
+      "path": "data/derived/openclip_text_inputs_v1.csv",
+      "sha256": "9e74446194e3d1b08c327b487ff5cdf50c3196486a211f70b15d4a34e6c19925",
+      "size_bytes": 143739
+    }
+  },
+  "model": {
+    "batch_size": 16,
+    "device": "cuda",
+    "embedding_dimension": 512,
+    "model_name": "ViT-B-32",
+    "normalize": true,
+    "precision": "amp_fp16",
+    "pretrained": "laion2b_s34b_b79k"
+  },
+  "outputs": {
+    "index": {
+      "path": "data/derived/openclip_embeddings_index_v1.csv",
+      "sha256": "1a6f2a9a116f05ea161e997a9ac0683a10f742abc77e338d4c1109cdd0a7975d",
+      "size_bytes": 4000
+    },
+    "npz": {
+      "path": "data/derived/openclip_embeddings_v1.npz",
+      "sha256": "f306bfa1b51e7a429b7aad54609a76fb0c1ee1f0cc5816d51699ecef76a19fee",
+      "size_bytes": 1333376
+    },
+    "summary": {
+      "path": "outputs/reports/openclip_embeddings_summary_v1.csv",
+      "sha256": "274dcad2b2e69ab2e93d1ced486fc478729c5d497b47243c6755c90f567e56d6",
+      "size_bytes": 350
+    }
+  },
+  "pipeline_version": "openclip_embedding_materialization_v1"
+}

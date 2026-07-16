@@ -1,0 +1,46 @@
+﻿field,allowed_value,definition
+review_status,pendiente,El caso todavía no fue revisado.
+review_status,revisado,La revisión manual fue completada.
+review_status,requiere_segunda_revision,El caso necesita validación adicional.
+visual_similarity,alta,Las estructuras visuales son claramente similares.
+visual_similarity,media,Existe similitud parcial o localizada.
+visual_similarity,baja,La similitud visual es débil.
+visual_similarity,ninguna,No se observa semejanza visual relevante.
+photographic_similarity,alta,"Fondo, encuadre, iluminación o escala son muy similares."
+photographic_similarity,media,Hay coincidencias fotográficas parciales.
+photographic_similarity,baja,La presentación museográfica influye poco.
+photographic_similarity,ninguna,No se observa influencia fotográfica.
+semantic_plausibility,alta,La recuperación es semánticamente defendible.
+semantic_plausibility,media,La relación semántica es parcial.
+semantic_plausibility,baja,La relación semántica es débil.
+semantic_plausibility,ninguna,La recuperación no es semánticamente plausible.
+dominant_cause,similitud_visual,Predominan rasgos visuales compartidos.
+dominant_cause,estilo_fotografico,Predomina la presentación museográfica.
+dominant_cause,texto_generico,Predominan títulos o campos textuales genéricos.
+dominant_cause,coincidencia_cultural,Predomina la cultura o periodo compartido.
+dominant_cause,coincidencia_tipo_objeto,Predomina el tipo de objeto compartido.
+dominant_cause,duplicado_visual,Existe duplicidad o casi duplicidad visual.
+dominant_cause,hubness_embedding,No se observa una causa interpretable directa.
+dominant_cause,mixta,Intervienen varias causas de forma comparable.
+duplicate_or_near_duplicate,si,Las imágenes parecen duplicadas o casi duplicadas.
+duplicate_or_near_duplicate,no,No se observa duplicidad.
+duplicate_or_near_duplicate,dudoso,La duplicidad requiere una segunda revisión.
+generic_text_influence,alta,El texto genérico parece influir notablemente.
+generic_text_influence,media,El texto genérico puede contribuir parcialmente.
+generic_text_influence,baja,La influencia del texto genérico es pequeña.
+generic_text_influence,ninguna,No se aprecia influencia del texto genérico.
+museum_style_influence,alta,El estilo fotográfico del museo parece dominante.
+museum_style_influence,media,Existe una influencia museográfica parcial.
+museum_style_influence,baja,La influencia museográfica es pequeña.
+museum_style_influence,ninguna,No se observa influencia museográfica.
+hubness_severity,critica,El caso afecta ampliamente la recuperación.
+hubness_severity,alta,El efecto es frecuente y claramente problemático.
+hubness_severity,media,El efecto existe pero es limitado.
+hubness_severity,baja,El efecto es menor o semánticamente justificable.
+recommended_action,mantener,No se requiere una corrección inmediata.
+recommended_action,revisar_texto,"Revisar título, descripción o campos textuales."
+recommended_action,revisar_imagen,"Revisar recorte, fondo o calidad de imagen."
+recommended_action,marcar_duplicado,Registrar posible duplicidad.
+recommended_action,excluir_evaluacion,Considerar exclusión justificada de la evaluación.
+recommended_action,aplicar_mitigacion_hubness,Evaluar normalización o reordenamiento antihubness.
+recommended_action,segunda_revision,Solicitar revisión de otro evaluador.

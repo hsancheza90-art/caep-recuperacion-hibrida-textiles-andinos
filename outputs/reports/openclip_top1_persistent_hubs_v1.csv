@@ -1,0 +1,17 @@
+candidate_item_id,candidate_museum,configurations_as_hub,configurations,total_top1_count,total_false_top1_count,max_top1_count
+MET:308048,MET,3,text_fused_alpha_0.50|text_metadata|text_visual,140,138,71
+MET:318460,MET,3,text_fused_alpha_0.50|text_metadata|text_visual,36,36,12
+CMA:119689,CMA,3,text_fused_alpha_0.50|text_metadata|text_visual,34,34,18
+MET:308070,MET,3,text_fused_alpha_0.50|text_metadata|text_visual,33,33,17
+CMA:104241,CMA,3,text_fused_alpha_0.50|text_metadata|text_visual,24,24,14
+CMA:165184,CMA,3,text_fused_alpha_0.50|text_metadata|text_visual,20,20,8
+MET:313153,MET,3,text_fused_alpha_0.50|text_metadata|text_visual,19,19,8
+MET:308058,MET,3,text_fused_alpha_0.50|text_metadata|text_visual,10,10,4
+MET:308283,MET,2,text_fused_alpha_0.50|text_metadata,27,27,14
+MET:308290,MET,2,text_fused_alpha_0.50|text_visual,22,22,16
+MET:313121,MET,2,text_fused_alpha_0.50|text_visual,15,15,10
+MET:320054,MET,2,text_fused_alpha_0.50|text_visual,14,14,9
+CMA:119687,CMA,2,text_fused_alpha_0.50|text_visual,13,13,9
+MET:315786,MET,2,text_fused_alpha_0.50|text_metadata,10,10,7
+CMA:165268,CMA,2,text_fused_alpha_0.50|text_visual,9,9,5
+CMA:152334,CMA,2,text_fused_alpha_0.50|text_metadata,6,6,3

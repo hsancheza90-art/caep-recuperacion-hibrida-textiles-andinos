@@ -1,0 +1,13 @@
+configuration,query_museum,top1_museum,count,share_within_query_museum
+text_visual,CMA,CMA,25,0.284090909091
+text_visual,CMA,MET,63,0.715909090909
+text_visual,MET,CMA,49,0.385826771654
+text_visual,MET,MET,78,0.614173228346
+text_metadata,CMA,CMA,33,0.375
+text_metadata,CMA,MET,55,0.625
+text_metadata,MET,CMA,34,0.267716535433
+text_metadata,MET,MET,93,0.732283464567
+text_fused_alpha_0.50,CMA,CMA,27,0.306818181818
+text_fused_alpha_0.50,CMA,MET,61,0.693181818182
+text_fused_alpha_0.50,MET,CMA,38,0.299212598425
+text_fused_alpha_0.50,MET,MET,89,0.700787401575

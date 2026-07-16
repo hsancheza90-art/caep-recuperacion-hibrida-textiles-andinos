@@ -1,0 +1,39 @@
+{
+  "configuration": {
+    "configurations": [
+      "text_visual",
+      "text_metadata",
+      "text_fused_alpha_0.50"
+    ],
+    "include_self_matches": false,
+    "max_hubs": 16,
+    "max_queries_per_configuration": 6,
+    "title": "Auditoría visual de hubs OpenCLIP — Textiles andinos"
+  },
+  "coverage": {
+    "attraction_event_rows": 439,
+    "available_hub_profiles": 16,
+    "selected_hubs": 16
+  },
+  "dataset_name": "openclip_hub_gallery_v1",
+  "inputs": {
+    "attraction_events": {
+      "path": "outputs/reports/openclip_hub_audit_attraction_events_v1.csv",
+      "sha256": "58bb0ce3b712d1fa8afdb5ec3a022fc22854af00cb99eeb879a0d9a3f3972571",
+      "size_bytes": 119697
+    },
+    "hub_profiles": {
+      "path": "outputs/reports/openclip_hub_audit_profiles_v1.csv",
+      "sha256": "6c1f55e11431daca11c4485b3b4e6ebae315c2b06e7973b5755b6a7ce6ab8c5f",
+      "size_bytes": 20612
+    }
+  },
+  "output": {
+    "html": {
+      "path": "outputs/review/openclip_hub_audit_gallery_v1.html",
+      "sha256": "dd93905a620ab8475395e0cfb48b1ec7abb0b45f7844053214c75e43b823aa24",
+      "size_bytes": 301807
+    }
+  },
+  "pipeline_version": "openclip_hub_gallery_v1"
+}

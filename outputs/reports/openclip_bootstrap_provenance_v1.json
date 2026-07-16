@@ -1,0 +1,45 @@
+{
+  "configuration": {
+    "confidence_level": 0.95,
+    "configuration_a": "text_metadata",
+    "configuration_b": "text_fused_alpha_0.50",
+    "cutoffs": [
+      1,
+      5,
+      10
+    ],
+    "difference_definition": "configuration_b_minus_configuration_a",
+    "interval_method": "percentile",
+    "n_resamples": 5000,
+    "paired": true,
+    "random_seed": 20260715,
+    "stratified_by": "museum"
+  },
+  "coverage": {
+    "difference_summary_rows": 6,
+    "input_rows": 645,
+    "replicate_rows": 30000,
+    "summary_rows": 18
+  },
+  "dataset_name": "openclip_paired_bootstrap_v1",
+  "input": {
+    "per_query": {
+      "path": "outputs/reports/openclip_retrieval_per_query_v1.csv",
+      "sha256": "6064b38e501c2b1faa706f6bab9dae178aade3e7b149602ef4fe05415fb44a8a",
+      "size_bytes": 70167
+    }
+  },
+  "outputs": {
+    "replicates": {
+      "path": "outputs/reports/openclip_bootstrap_replicates_v1.csv",
+      "sha256": "0e8cde9fca22bad8be27949ecc718af43823dd9520d0bf2b7874c9b541ec47e6",
+      "size_bytes": 2710513
+    },
+    "summary": {
+      "path": "outputs/reports/openclip_bootstrap_summary_v1.csv",
+      "sha256": "6ddb6c64d108d7382c67d692ed154772cc8096d34e32b1958764af978367e7d7",
+      "size_bytes": 1928
+    }
+  },
+  "pipeline_version": "openclip_paired_bootstrap_v1"
+}
